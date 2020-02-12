@@ -1,5 +1,5 @@
-   /*
    
+   /*
     console.error('Hello world!');
 
     console.clear();
@@ -367,7 +367,7 @@ nums = [20, 30];                    //не работает
 
 console.log(nums);
 //--------------------------//
-*/
+
 const nums = [2,12,34,23,21];
 
 const input = +prompt('Enter a value: ');
@@ -377,7 +377,105 @@ if (index > -1) {
     nums.splice(index, 1);
 }
 
-console.log(nums);  
+//console.log(nums);  
+
+//=========================================================================================================
+//2.2.3 Изменение массива
+
+const first = [10, 20, 'CamelCase111'];
+const second = [30, 40, 'CamelCase222'];
+
+const arr = first.concat(second);
+
+console.log(arr);
+//-------------------------------------------
+
+const first = [10, 20, 'CamelCase111'];
+const second = [30, 40, 'CamelCase222'];
+
+const arr = second.concat(first);
+
+console.log(arr);
+//------------------------------------------------
+
+const arr = [10, 20];
+
+const newArr = arr.concat(5, 6, 7, 'You');
+
+console.log(newArr);
+//------------------------------------------------
+
+const arr = [10, 20];
+const newArr = arr;
+arr.push(22);
+
+console.log(newArr);
+
+//-------------------------------------------------
+const arr = [10, 20];
+const newArr = arr.concat();
+arr.push(22);
+
+console.log(newArr);
+console.log(arr);
+
+//-------------------------------------------------
+
+const nums = [10, 20, 30, 40];
+const str = nums.join();
+
+console.log(str);
+//--------------------------------------------------
+
+const nums = [10, 20, 30, 40];
+const str = nums.join('-_*_-');
+
+console.log(str);
+
+//--------------------------------------------------
+const nums = [10, 20, 30, 40];
+const str = nums.join('');
+
+console.log(str);
+
+//--------------------------------------------------
+
+const str = '12,13,14,15';
+const arr = str.split(',');
+
+console.log(arr);
+
+//--------------------------------------------------
+
+const str = '12,13,14,15';
+const arr = str.split();
+
+console.log(arr);
+
+//---------------------------------------------------
+
+const str = 'JavaScript';
+const arr = str.split('');
+
+console.log(arr);
+
+//---------------------------------------------------
+*/
+const nums = [12,17,89,4,8];
+
+const input = prompt('Enter a numbers: ');
+
+const userArr = input.split(',');
+
+const newArr = nums.concat(userArr);
+
+console.log(newArr);
+
+//--------------------------------------------------------------
+
+
+   
+
 
 
 
