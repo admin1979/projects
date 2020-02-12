@@ -1,17 +1,19 @@
-// console.error('Hello world!');
+   /*
+   
+    console.error('Hello world!');
 
-// console.clear();
+    console.clear();
 
-// console.log('Hello user!');
+    console.log('Hello user!');
 
-// alert('Hello world!');
+    alert('Hello world!');
 
 
 
 //=====================================================================================================
 //Что такое объект
 
-/*     const auto = {
+     const auto = {
     model: "Kalina",
     color: "Red",
     year: 2012
@@ -24,7 +26,7 @@ if (value) {
     console.log(value);
 } else {
     console.log('Not found');
-} */
+} 
  
 
 //==================================================================================================================
@@ -238,7 +240,8 @@ let {name, years:age, height = null} = person;
 // console.log(name, age, height);
 
 //======================================================================================================
-//Что такое Массив
+//======================================================================================================
+//Массивы. Что такое Массив
 
 // 1  2  3  4  5  6  7  8  9  
 //[ ][ ][ ][ ][ ][ ][ ][ ][ ]
@@ -289,12 +292,92 @@ const input = +prompt('Enter a number: '); //плюс означает треб�
 const index = nums.indexOf(input);
 
 if (index > -1) {                         // -1 это означает что значения нет в массиве 
-    console.log(nums[index]);
+    //console.log(nums[index]);
 } else {
-    console.log('Not found');
+    //console.log('Not found');
 };
 
+//=====================================================================================================
+//2.2.2 Добавление и удаление элементов в массив
 
+const nums = [10, 20, 30];
+nums.push(40, 'CamelCase');
+                               
+//console.log(nums);
+//---------------------------------------------------------//
+
+const nums = [10, 20, 30];
+nums.unshift(50);
+
+//console.log(nums);
+//-----------------------------------------------------//
+
+const nums = [10, 20];
+nums[4] = 40;
+
+//console.log(nums);
+//------------------------------------------------------//
+
+const arr = [];
+for(let i = 0; i < 5; i++) {
+    let input = prompt('Enter a five number: ');
+    arr.push(input);
+}
+
+//console.log(arr);
+
+//--------------------------//
+
+for (let i = 0; i<=40; i = i + 5) { // Это относиться к циклу for (учитель забежал вперёд курса)
+    //console.log(i);
+} 
+//--------------------------//
+
+const nums = [10, 20, 30];
+delete nums[1];
+
+console.log(nums);
+
+//--------------------------//
+const nums = [10, 20, 30];
+
+nums.splice(1, 1);
+
+console.log(nums);
+
+//------------------------//
+const nums = [10, 20, 30];
+
+nums.pop();
+
+console.log(nums);
+
+//------------------------//
+
+const nums = [10, 20, 30];  
+const element = nums.pop();
+nums = [20, 30];                    //не работает
+
+console.log(nums);
+
+//--------------------------//
+const nums = [10, 20, 30];  
+const element = nums.shift();
+nums = [20, 30];                    //не работает
+
+console.log(nums);
+//--------------------------//
+*/
+const nums = [2,12,34,23,21];
+
+const input = +prompt('Enter a value: ');
+const index  = nums.indexOf(input);
+
+if (index > -1) {
+    nums.splice(index, 1);
+}
+
+console.log(nums);
 
 
 
