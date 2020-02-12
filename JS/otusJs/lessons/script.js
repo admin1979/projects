@@ -377,7 +377,7 @@ if (index > -1) {
     nums.splice(index, 1);
 }
 
-console.log(nums);
+console.log(nums);  
 
 
 
