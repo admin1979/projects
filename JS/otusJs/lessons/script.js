@@ -460,7 +460,7 @@ const arr = str.split('');
 console.log(arr);
 
 //---------------------------------------------------
-*/
+
 const nums = [12,17,89,4,8];
 
 const input = prompt('Enter a numbers: ');
@@ -471,14 +471,119 @@ const newArr = nums.concat(userArr);
 
 console.log(newArr);
 
-//--------------------------------------------------------------
 
+//======================================================================================
+//2.2.4 Перебор массива
 
-   
+const nums = [10, 20, 30, 40];
+console.log(nums[0]);
+console.log(nums[1]);
+console.log(nums[2]);
+console.log(nums[3]);
 
+//-------------------------------------
+const nums = [10, 20, 30, 40];
 
+for (let i=0; i < nums.length; i++) {
+    console.log(nums[i]);
+}
 
+//-------------------------------------
+const nums = [10, 20, 30, 40];
 
+nums.forEach(function (el) {
+    console.log(el);
+});
+
+//-------------------------------------
+const nums = [12, 23, 31, 47];
+let sum = 0;
+
+nums.forEach(function(el){
+    sum = sum + el;
+    console.log(sum);
+});
+
+//-------------------------------------
+const nums = [10, 20, 30, 40];
+
+nums.forEach(function(el, i){
+    console.log(i);
+});
+
+//------------------------------------
+const nums = [10, 20, 30, 40];
+                                            
+nums.map(function(el) {
+    let modified = el + 2;
+    return modified; 
+    console.log(nums);  
+}); // не работает
+
+//------------------------------------
+let arr = [12, 23, 34, 53, 89];
+arr = arr.map(function(el){
+    let newValue;
+
+    if (el % 2 == 0) {
+        newValue = (el+1000)*3;
+    } else {
+        newValue = el;
+    }
+
+    return newValue;
+});
+console.log(arr);
+
+//----------------------------------
+const arr = [2, 6, 4, 8];
+
+let match = arr.find(function(el) {
+    return el > 5;
+});
+
+console.log(match);
+
+//-----------------------------------
+const arr = [2, 6, 4, 8];
+
+let match = arr.find(function(el) {
+    return el > 9;
+});
+
+console.log(match);
+
+//---------------------------------------
+const arr = [2, 6, 4, 8];
+
+let filtered11111 = arr.filter(function(el) {
+    return el > 5;
+});
+
+console.log(filtered11111);
+
+//-----------------------------------------
+
+const arr = [2, 6, 4, 8];
+
+let filtered11111 = arr.filter(function(el) {
+    return el > 10;
+});
+
+console.log(filtered11111);
+
+//--------------------------------------------
+*/
+
+const arr = [3,15,6,23,43];
+
+const input = +prompt('Enter a number: ');
+
+const newArr = arr.filter(function(el){
+    return el < input;
+});
+
+console.log(newArr);
 
 
 
