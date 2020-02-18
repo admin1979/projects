@@ -573,7 +573,7 @@ let filtered11111 = arr.filter(function(el) {
 console.log(filtered11111);
 
 //--------------------------------------------
-*/
+
 
 const arr = [3,15,6,23,43];
 
@@ -585,7 +585,158 @@ const newArr = arr.filter(function(el){
 
 console.log(newArr);
 
+//=============================================================================
+//2.2.5 Деструктуризация массива
 
+let nums = [10, 20, 30];
+
+let firstNum = nums[0];
+let secondNum = nums[1];
+let thirdNum = nums[2];
+
+console.log(thirdNum);
+console.log(secondNum);
+console.log(firstNum);
+//--------------------------------
+
+let nums = [10, 20, 30];
+
+let[secondNum, firstNum, thirdNum] = nums;
+
+console.log(nums);
+//------------------------------------------
+
+let username = 'John Smith Ivanovich';
+
+let [fName, sName, familia] = username.split(' ');
+
+console.log(familia);
+//------------------------------------------
+
+let nums = [10, 20, 30];
+
+let[num1, ,num2] = nums;
+
+console.log(num1, num2);
+//------------------------------------------
+
+let nums = [10, 20];
+
+let [num1, num2, num3=50] = nums;
+
+console.log(num1, num2, num3);
+//------------------------------------------
+
+let nums = [10,20,30,40,50,60,'CamelCase'];
+
+let [num1, num2, ...rest] = nums;
+
+console.log(rest);
+console.log(num1, num2);
+//------------------------------------------
+
+const olipics = [12, 23, 45];
+
+let [gold=0, , bronze=0] = olipics;
+
+console.log(gold, bronze);
+
+//------------------------------------------
+
+const olipics = [12, 23];
+
+let [gold=0, , bronze=0] = olipics;
+
+console.log(gold, bronze);
+
+//------------------------------------------
+
+const olipics = [12, 23];
+
+let [gold, , bronze=14] = olipics;
+
+console.log(gold, bronze);
+*/
+//============================================================================================
+//============================================================================================
+
+//1.2.1 Что такое переменная
+//1.2.2 Как объявить переменную
+
+let value = 157;
+
+//Можно изменять
+let value = 157;
+value = 189;
+console.log(value);
+
+//Можно объявить пустой
+let value;
+value = 157;
+console.log(value);
+
+//---------------------------------------
+
+const value = 17;
+
+//Нельзя изменять
+const value = 157;
+value = 189;
+console.log(value);// не выйдет
+
+//Нельзя объявить пустой
+const value;
+value = 157;
+console.log(value); //не выйдет
+
+//--------------------------------------
+
+const value = 250;
+value = 150;
+
+console.log(value); //не выйдет
+
+//--------------------------------------
+
+let value;
+
+console.log(value); //undefined
+value=250;
+
+//--------------------------------------
+
+console.log(value); //undefined  
+var value = 157; 
+
+//----------------------------------------
+
+var value = 157;
+
+//тоже самое, что и 
+var value;
+value = 157;        // Хоистинг  
+
+//----------------------------------------
+
+var value1 = 157;
+var value2 = 517;
+value1 = 256;
+
+//тоже самое, что и 
+var value1;
+var value2;
+
+value1 = 157;
+value2 = 517;
+value1 = 256;
+
+console.log(value1, value2); // Хоистинг 
+
+//==================================================================================================
+//==================================================================================================
+
+//Типы данных
+//Строки 
 
 
 
