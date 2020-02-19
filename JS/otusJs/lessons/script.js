@@ -656,7 +656,7 @@ const olipics = [12, 23];
 let [gold, , bronze=14] = olipics;
 
 console.log(gold, bronze);
-*/
+
 //============================================================================================
 //============================================================================================
 
@@ -737,8 +737,70 @@ console.log(value1, value2); // Хоистинг
 
 //Типы данных
 //Строки 
+const firstString = 'First message';
+const secondString = 'Second message';
+
+const sum = firstString + secondString;
+
+console.log(sum);
+
+//--------------------------------------
+
+const firstString = 'First message';
+const secondString = 'Second message';
+
+const sum = firstString + ' ' + secondString;
+
+console.log(sum);
+//---------------------------------------
+
+const firstName = 'Yan';
+const secondName = 'Petrichenko';
+
+console.log('Hello,' + firstName + ' ' + secondName);
+//------------------------------------------------------
+
+const name = 'Yanis';
+const greet = `Oh, hi ${name}`;
+
+console.log(greet);
+//----------------------------------------------------
+
+const firstName = 'Yan';
+const secondName = 'Petrichenko';
+
+console.log(`Hello, ${firstName} ${secondName}`);
+//----------------------------------------------------
+
+prompt('Enter you name');
+
+//---------------------------------------------------
+const name = prompt('Name?');
+console.log(`Oh, hi ${name}`);
+
+//------------------------------------
+
+const name = 'Vladimir';
+
+console.log(name.length);
+
+//--------------------------------------
 
 
+const name = prompt('Enter a word ');
+
+console.log(name.length);
+
+//--------------------------------------
+
+const name = prompt('Enter a word ');
+const length111 = name.length;
+
+console.log(length111);
+
+*/
+//=========================================================================================
+//1.3.2 Числа
 
 
 
