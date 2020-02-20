@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$text_color: blue;\n@mixin box {\n\n    display: block;\n    width: 250px;\n    height: 200px;\n    background-color: red; }\n\n\nh1 {\n    margin-top: 10px;\n    color: $text_color;\n    font-size: 50px;\n    @include box; }\nh2 {\n    color: $text_color; }\n\n.block {\n    background-color: black;\n    h3 {\n        color: green; }\n    &_color {\n        background-color: orange;\n        button {\n            @include box; } }\n    .block_color {\n        color: $text_color; } }\n\n"
+	],
+	"names": [],
+	"mappings": ";AASA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;EAChB,KAAK,EAXI,IAAI;EAYb,SAAS,EAAE,IAAI;EATf,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,GAAG;CAON;;;AACnB,AAAA,EAAE,CAAC;EACC,KAAK,EAfI,IAAI;CAeQ;;;AAEzB,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,KAAK;CAQI;;;AAT/B,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,KAAK,EAAE,KAAK;CAAG;;;AAClB,AAAD,YAAO,CAAC;EACJ,gBAAgB,EAAE,MAAM;CAEH;;;AAHxB,AAEG,YAFG,CAEH,MAAM,CAAC;EApBX,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,GAAG;CAkBE;;;AAP3B,AAQI,MARE,CAQF,YAAY,CAAC;EACT,KAAK,EA1BA,IAAI;CA0BY"
+}

@@ -1,1 +1,45 @@
-h1{margin-top:10px;color:blue;font-size:50px;display:block;width:250px;height:200px;background-color:red}h2{color:blue}.block{background-color:black}.block h3{color:green}.block_color{background-color:orange}.block_color button{display:block;width:250px;height:200px;background-color:red}.block .block_color{color:blue}
+/* line 10, ../Work/projects/preprocessor/example1/sass/style.sass */
+h1 {
+  margin-top: 10px;
+  color: blue;
+  font-size: 50px;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 15, ../Work/projects/preprocessor/example1/sass/style.sass */
+h2 {
+  color: blue;
+}
+
+/* line 18, ../Work/projects/preprocessor/example1/sass/style.sass */
+.block {
+  background-color: black;
+}
+
+/* line 20, ../Work/projects/preprocessor/example1/sass/style.sass */
+.block h3 {
+  color: green;
+}
+
+/* line 22, ../Work/projects/preprocessor/example1/sass/style.sass */
+.block_color {
+  background-color: orange;
+}
+
+/* line 24, ../Work/projects/preprocessor/example1/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 26, ../Work/projects/preprocessor/example1/sass/style.sass */
+.block .block_color {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
