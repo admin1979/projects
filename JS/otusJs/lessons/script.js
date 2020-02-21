@@ -856,7 +856,6 @@ const km = (mi*1.61);
 console.log(km);
 
 //-----------------------------------------------
-*/
 
 const miles = prompt('Enter miles: ');
 
@@ -929,5 +928,118 @@ console.log(double);
 
 //====================================================================================================
 //1.3.5 Преобразование типов
+
+const value = 25 / '5';
+console.log(value); //= 5
+//-------------------------------
+
+const value = 25 + '5';
+console.log(value); //= '255'
+//-------------------------------
+
+const value = '157';
+console.log(+value); // = 157
+
+//-------------------------------
+
+const value = Number('157');
+
+console.log(typeof value);
+
+//------------------------------
+const value = Number('sadsaddfdf157');
+console.log(value);
+
+//-----------------------------------
+
+const num = Number(undefined);
+console.log(num);
+//----------------------------------
+
+const num = Number(null);
+console.log(num); //= 0
+
+//--------------------------------
+
+const qWn11 = Number(true);
+console.log(qWn11);
+
+//-------------------------------
+
+const wwWWww = Number(false);
+console.log(wwWWww);
+
+//-------------------------------
+
+const summ = 125 + true;
+console.log(summ); //= 126
+
+//-------------------------------
+
+const summ = 125 / false;
+console.log(summ); // = infinity
+
+//--------------------------------
+
+const strrr = "25" + 10;
+
+const trrr = strrr;
+console.log(strrr);
+console.log(trrr);
+
+//--------------------------------
+
+const sum = 4 + 5 + '7';
+console.log(sum); //= 97
+
+//---------------------------------
+
+const num = 24;
+const str = String(num);
+console.log(typeof str); //string
+
+//----------------------------------
+
+String(null); //=null
+String(undefined); //=undefined
+String(true); //=true
+String(false); //=false
+
+//----------------------------------
+
+Boolean(0);
+Boolean('');
+Boolean(NaN);              //false
+Boolean(undefined);
+Boolean(null);
+
+//-----------------------------------
+*/
+
+const a = "" + 1 + 0;   
+const b = "" - 1 + 0;
+const c = true + false;
+const d = 6 / '3';
+const e = "2" * "3";
+const f = 4 + 5 + 'px';
+const g = "$" + 4 + 5;
+const h = "4" - 2;
+const i = '4px' - 2;
+const j = 7 / 0;
+const k = " -9 " + 5;
+const l = " -9 " - 5;
+const m = null + 1;
+const n = undefined + 1 ;
+
+console.log(a, b, c, d, e, f, g, h, i, j, k, l, m, n);
+
+
+//================================================================================================
+//================================================================================================
+
+//4. Логические выражения
+
+//1.4.1 Сравнение значений
+
 
 
