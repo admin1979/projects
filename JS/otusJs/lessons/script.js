@@ -1014,7 +1014,7 @@ Boolean(undefined);
 Boolean(null);
 
 //-----------------------------------
-*/
+
 
 const a = "" + 1 + 0;   
 const b = "" - 1 + 0;
@@ -1040,6 +1040,132 @@ console.log(a, b, c, d, e, f, g, h, i, j, k, l, m, n);
 //4. Логические выражения
 
 //1.4.1 Сравнение значений
+
+const com = 25 > 15;
+console.log(com); //true
+//--------------------------------------------
+const com = 25 < 15;
+console.log(com); // false
+
+//--------------------------------------------
+
+const valuee = 12;
+const comp = valuee < 15;
+
+console.log(comp);
+
+//---------------------------------------------
+
+const v1 = 13;
+const v2 = v1 > 14;
+
+console.log(v2);
+
+//----------------------------------------------
+
+const value = 12;
+
+const comp = value - 11 + 30 != 30;  // не равно 30
+
+console.log(comp);
+
+//----------------------------------------------
+const value = 10;
+const a = value - 1 != 10;
+console.log(a);
+
+const value = 10;
+const a = value - 1 < 10;
+console.log(a);
+
+const value = 10;
+const a = value - 1 <= 10;
+console.log(a);
+
+const value = 10;
+const a = value - 5 > 4;
+console.log(a);
+
+const value = 10;
+const a = value - 1 <= 9;
+console.log(a);
+
+const value = 10;
+const a = value - 1 <= 9;
+console.log(a);
+
+const value = 10;
+const a = value - 19 <= -9;
+console.log(a);
+
+//-----------------------------------------------------
+
+const value = 20;
+const b = value > 21;
+console.log(b);
+
+const value = 20;
+const b = value != 20;
+console.log(b);
+
+const value = 20;
+const b = value - 1 + 1 < 20;
+console.log(b);
+
+const value = 20;
+const b = (value * 10) + (500 / 10) <= 21;
+console.log(b);
+
+const value = 20;
+const b = value >= 21;
+console.log(b);
+
+//-----------------------------------------------------
+
+const com = 5 < '25';
+
+console.log(com); //true
+//-----------------------------------------------
+
+
+const com = 5 < 'text25';
+
+console.log(com); //false
+
+//---------------------------------------------------
+
+const s = 157 == '157';
+
+console.log(s); // true приведение к числу
+
+//---------------------------------------------------
+
+const s = 157 === '157';
+
+console.log(s); // false строгое сравнение
+
+//----------------------------------------------------
+
+const simple = 5 != '5';
+console.log(simple); // false
+
+//---------------------------------------------------
+
+const strict = 5 !== "5";
+console.log(strict); // true
+
+//---------------------------------------------------
+*/
+const value = +prompt('Enter a positive value: ');
+const p = value > 0;
+console.log(p);
+
+//==============================================================================================
+
+//1.4.2 Логические выражения
+
+
+
 
 
 
