@@ -1,4 +1,3 @@
-/* line 10, ../Work/projects/preprocessor/example1/sass/style.sass */
 h1 {
   margin-top: 10px;
   color: blue;
@@ -9,37 +8,75 @@ h1 {
   background-color: red;
 }
 
-/* line 15, ../Work/projects/preprocessor/example1/sass/style.sass */
 h2 {
   color: blue;
 }
 
-/* line 18, ../Work/projects/preprocessor/example1/sass/style.sass */
 .block {
   background-color: black;
 }
 
-/* line 20, ../Work/projects/preprocessor/example1/sass/style.sass */
 .block h3 {
   color: green;
 }
 
-/* line 22, ../Work/projects/preprocessor/example1/sass/style.sass */
 .block_color {
   background-color: orange;
 }
 
-/* line 24, ../Work/projects/preprocessor/example1/sass/style.sass */
 .block_color button {
   display: block;
   width: 250px;
   height: 200px;
   background-color: red;
+  width: 250px;
+  transition: 0.5s all;
 }
 
-/* line 26, ../Work/projects/preprocessor/example1/sass/style.sass */
+.block_color button:hover {
+  height: 100px;
+  background-color: pink;
+  cursor: pointer;
+  color: red;
+  font-size: 30px;
+}
+
+.block_color button:active {
+  background-color: green;
+  border: dotted 5px;
+}
+
 .block .block_color {
   color: blue;
 }
 
-/*# sourceMappingURL=style.css.map */
+.round {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px auto;
+  height: 200px;
+}
+
+.round:hover {
+  border: dotted;
+}
+
+.round .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin-top: 10px;
+}
+
+.round .circle:active {
+  background-color: grey;
+}
+
+.round .circle:nth-child(2n) {
+  background-color: blue;
+}
