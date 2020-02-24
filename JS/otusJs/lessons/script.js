@@ -1304,7 +1304,6 @@ if (age < 18) {
 }
 
 //----------------------------------
-*/
 //тоже самое, что и предыдущее, только в одну строку
 const age = prompt('Enter you age: ');
 
@@ -1321,4 +1320,38 @@ if (outer > 10) {
 }
 
 console.log(inner); //oшибка, т.к переменные объявленные внутри {} не будут видны вне условного оператора
+
+//=============================================================================================================
+//1.5.2 Условный оператор
+
+const cost = 500;
+let cattegory;
+
+if (cost > 500) {
+    cattegory = 'high price';
+} else {
+    cattegory = 'low price';
+}
+
+console.log(cattegory);
+
+//-----------------------------------------
+
+
+//(условие) ? знач! : знач2
+
+const cost = 500;
+
+let cattegory = (cost > 500) ?
+'high price' : 'low price';
+
+console.log(cattegory);
+
+//-----------------------------------------
+*/
+const sym = prompt("M for male, F for female: ");
+
+const gender = (sym === 'M') ? 'male' : 'female';
+
+console.log(gender);
 
