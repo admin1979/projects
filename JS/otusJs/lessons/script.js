@@ -1348,7 +1348,6 @@ let cattegory = (cost > 500) ?
 console.log(cattegory);
 
 //-----------------------------------------
-*/
 const sym = prompt("M for male, F for female: ");
 
 const gender = (sym === 'M') ? 'male' : 'female';
@@ -1358,3 +1357,68 @@ console.log(gender);
 //=====================================================
 //1.5.3 Оператор switch.
 
+const city = prompt('Enter city name: ');
+let cost;
+
+switch(city) {
+    case 'Moscow':
+        cost = 3500;
+        console.log(cost);
+        break;
+
+    case 'Kazan':
+    case 'St. Petersburg':
+        cost = 5000;
+        console.log(cost);
+        break;
+
+    default:
+        alert('All tickets are sold!');
+}
+
+//-----------------------------------------------
+
+const city = prompt('Enter city name: ');
+let cost;
+
+if (city == 'Moscow') {
+    cost = 3500;
+    console.log(cost);
+} else if (city == 'Kazan' || city == "St.Petersburg") {
+    cost = 5000;
+    console.log(cost);
+} else {
+    alert('All tickets are sold!');
+}
+
+//--------------------------------------------------
+
+let num = prompt('Enter a number');
+
+if (num == 0) {
+    alert(1);
+}
+if (num == 1) {
+    alert(1);
+}
+if (num == 2 || num == 3) {
+    alert('2,3');
+}
+
+//---------------------------------------------------
+*/
+
+let num = +prompt('Enter a number');
+
+switch (num) {
+    case 0:
+        alert(0)
+        break;
+    case 1:
+        alert(1);
+        break;
+    case 2:
+    case 3:
+        alert("2,3");
+        break;
+}
