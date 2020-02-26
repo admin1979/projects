@@ -1,5 +1,10 @@
 $main-color: #1eacc7
 $second-color: #ff5656
+
+=btn_hover
+    &:hover
+        background-image: none
+        background-color: $main-color
     
 * 
     font-family: 'Roboto', sans-serif
@@ -75,6 +80,8 @@ nav
     font-size: 14px
     font-weight: 400
     text-transform: uppercase
+    +btn_hover
+    
 
 .promo
     min-height: 800px
@@ -118,6 +125,8 @@ nav
     background-color: #26B5D1
     color: white
     font-weight: 400
+    +btn_hover
+    
 
 
 
