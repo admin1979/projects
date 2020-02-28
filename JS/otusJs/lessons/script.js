@@ -1643,3 +1643,106 @@ console.log(sum);
 //============================================================================
 
 //3. Функции
+
+function sum(a, b) {
+    return a + b;
+}
+
+//--------------------------
+
+function sum(a, b) {
+    return a + b;
+}
+
+//---------------------------
+
+function sum111(a, b) {
+    return a + b;
+}
+
+const val22 = sum111(5, 6);
+
+console.log(val22);
+
+//----------------------------
+
+const num1 = 5;
+const num2 = 8;
+
+function summm(a, b) {
+    return a + b;
+}
+
+const val = summm(num1, num2);
+
+console.log(summm); //Не складывает?????????????????????
+
+//--------------------------------
+
+function sayHello() {
+    return "Hello";
+}
+
+const val = sayHello();
+
+console.log(val);
+
+//--------------------------------
+
+function calc(num, exp) {
+    let res = 1;
+
+    for(let i = 1; i <= exp; i ++) {
+        res = res * num;
+    }
+
+    return res;
+}
+
+const result = calc(3, 2);
+console.log(result);
+
+//-----------------------------------
+
+const fun = function (a) {
+    ...
+}
+
+//------------------------------------
+
+//тоже самое, что и предыдущее
+
+const fun = (a) => {
+    ...
+}
+
+//------------------------------------
+
+conast sum = (a, b) => {
+    return a + b;
+}
+
+//-------------------------------------
+
+const area = (a, b) => {
+    return a * b;
+}
+
+const result = area(5, 4);
+console.log(result);
+
+//------------------------------
+
+const area = (a, b) => {
+    if ((a>0)&&(b>0)) {
+        return a * b;
+    } else {
+        return null;
+    }
+}
+
+const result = area(5, -4);
+console.log(result);
+
+//------------------------------
+
