@@ -1622,7 +1622,6 @@ for (let i = 1; i <= 1000; i++) {
 console.log(result);
 
 //------------------------------------
-*/
 
 let sum = 0;
 
@@ -1747,5 +1746,195 @@ console.log(result);
 //==========================================
 //2.3.2 Область видимости
 
+//2.3.3 Замыкания
 
+function fun() {
+    let message = 'hello';
 
+    return function () {
+        console.log(message);
+    }
+}
+
+const value = fun();
+value();
+
+//-------------------------------------------------
+*/
+
+function outer () {
+    return function () {
+        console.log('+');
+    }
+    
+}
+
+const value = outer();
+
+value();
+
+//-------------------------------
+
+function outer () {
+    let message = 'Hello';
+
+    return function () {
+        console.log(message);
+    }
+    
+}
+
+const value = outer();
+
+value();
+
+//-------------------------------
+
+function outer () {
+    let count = 0;
+
+    return function () {
+        count++;
+        console.log(count);
+    }
+}
+
+const value = outer();
+
+value();
+value();
+value();
+value();
+value();
+
+//====================================================================================
+
+//2.3.4 Асинхронные операции
+
+setTimeout(() => {              //задержка функции
+    console.log('now!');
+}, 1000);
+
+//-----------------------------------
+
+const id = setTimeout (() => {
+    ...
+}, 1000);
+
+clearTimeout(id); // хз что??????
+
+//------------------------------------
+
+function logger() {
+    console.log('now');
+}
+
+setTimeout(logger, 3000);
+
+//-------------------------------------
+
+function sum(a, b, c) {
+    console.log(a+b-c);
+}
+
+setTimeout(sum, 4000, 5, 2, 1);
+//-------------------------------------
+
+setInterval(() => {
+    console.log('now1');
+}, 2000);                     //бесконечно как цикл
+
+//--------------------------------------
+
+function counter (from, to) {
+    let number = from;
+
+    const id = setInterval(() => {
+        console.log(number);
+
+        if (number == to) {
+            clearInterval(id);
+        } else {
+            number++;
+        }
+    }, 3000);
+}
+
+counter(4, 18);
+
+//==============================================================================
+
+//2.3.5 Колбэк-функции
+
+const request = (cb) => {
+    console.log('request');
+
+    setTimeout(() => {
+        console.log("resposeee");
+        const data = {text: 'Hello'};
+        cb(data);
+    }, 2000);
+}
+
+const handler = (data) => {
+    console.log('handler', data);
+}
+
+request(handler);
+
+//--------------------------------------------
+
+const request = (cb) => {
+    console.log('request');
+
+    setTimeout(() => {
+        console.log("resposeee");
+        const data = {text: 'Hello'};
+        cb(data);
+    }, 2000);
+}
+
+request((data) => {
+    console.log('Hello callback', data);
+});
+
+//------------------------------------------
+
+const request = (cb) => {
+    console.log('request');
+
+    setTimeout(() => {
+        console.log("resposeee");
+        const data = {text: 'Hello'};
+        cb(data);
+    }, 2000);
+}
+
+const handler = (data) => {
+    console.log('handler', data);
+}
+
+request(handler);
+
+//--------------------------------------------
+
+const request = (cb) => {
+    console.log('request');
+
+    setTimeout(() => {
+        console.log("resposeee");
+        const data = {text: 'Hello'};
+        cb(data);
+    }, 2000);
+}
+
+request((err, data) => {
+    if (!err){
+    console.log('Hello callback', data);
+    } else {
+        console.error(err);
+    }  
+});
+
+//============================================================================
+//2.3.6 Promise
