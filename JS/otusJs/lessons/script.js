@@ -1760,7 +1760,6 @@ const value = fun();
 value();
 
 //-------------------------------------------------
-*/
 
 function outer () {
     return function () {
@@ -1938,3 +1937,169 @@ request((err, data) => {
 
 //============================================================================
 //2.3.6 Promise
+
+new Promise ((resolve, reject) => {
+    // асинхронная операция
+});
+
+//----------------------------------
+
+const prom = new Promise (...);
+
+Promise.then(() => {
+    // вызван resolve
+}, () => {
+    // вызван reject
+});
+
+//-----------------------------------
+
+const request = new Promise((resolve222, reject111) => {
+    console.log('request');
+
+    setTimeout(() => {
+        console.log('response');
+        reject111();
+    }, 2000); 
+});
+
+request.then(() => {
+    console.log('resolved'); 
+},
+() => {
+    console.log('rejected');
+});
+
+//-----------------------------------
+
+
+const request = new Promise((resolve222, reject111) => {
+    console.log('request');
+
+    setTimeout(() => {
+        console.log('response');
+        resolve222();
+    }, 2000); 
+});
+
+request.then(() => {
+    console.log('resolved'); 
+},
+() => {
+    console.log('rejected');
+});
+
+//===========================================================================
+//2.3.7 Контекст вызова функции.
+
+const person = {
+    name: "John Smith",
+    sayHi: function() {
+        console.log('Hi');
+    }
+};
+
+person.sayHi();
+
+//---------------------------------
+//тоже самое что предыд
+const person = {
+    name: 'John Smith',
+    sayHi() {
+        console.log('Hi');
+    }
+};
+person.sayHi();
+
+//----------------------------------
+
+const person = {
+    name: 'John Smith',
+    sayHi() {
+        console.log(`Hi ${this.name}`);
+    }
+};
+person.sayHi();
+
+//------------------------------------
+
+const person = {
+    name: 'John',
+    changeName(str123) {
+        this.name = str123;
+    }
+};
+
+person.changeName("Sam");
+console.log(person.name);
+
+//--------------------------------------
+
+function greet() {
+    console.log('hello' + ' ' + this.name);
+}
+
+const user1 = { name: 'Sam' };
+const user2 = { name: 'John' };
+
+user1.f = greet;
+user2.f = greet;
+
+user1.f(); //hello Sam
+user2.f(); //hello john
+
+//----------------------------
+
+const calc = {
+    a: 0,
+    b: 0,
+    sun:function() {
+        console.log(this.a + this.b);
+    },
+    mul() {                  //:function можно не писать, это по новому
+        console.log(this.a * this.b);
+    },
+    write(a, b) {
+        this.a = a;
+        this.b = b;
+    }
+};
+
+calc.write(5, 9);                    // Не понял!!!!!!!!!!!!!!!!!!!!!!!!
+calc.sum();
+
+//------------------------------------------------------------------
+//2.3.8 Изменение контекста вызова
+
+const person = {
+    name: "John",
+    greet() {
+        console.log(`I'm ${this.name}`);
+    }
+};
+
+const user = { name: 'Sam'};
+
+person.greet.call(user);
+
+//-------------------------------------
+*/
+
+const person = { name: 'John' };
+const user = { name: 'Sam' };
+
+function greet() {
+    console.log(`I'm ${this.name}`);
+}
+
+greet.call(user);
+
+greet.call(person);
+                                                //Функции пройти заново!!!!!!!!!!!!!!!!!!!!!!!!
+
+//================================================================================================
+//================================================================================================
+//3. Работа с DOM
+
+
+
