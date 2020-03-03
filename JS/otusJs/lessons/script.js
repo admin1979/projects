@@ -2083,7 +2083,6 @@ const user = { name: 'Sam'};
 person.greet.call(user);
 
 //-------------------------------------
-*/
 
 const person = { name: 'John' };
 const user = { name: 'Sam' };
@@ -2100,6 +2099,96 @@ greet.call(person);
 //================================================================================================
 //================================================================================================
 //3. Работа с DOM
+//3.1.1 Что такое DOM
+
+//document.body.style.background = '#f00';          к примеру изменение фона тега боди
+
+//================================================================================================
+//3.1.2 Поиск элементов
+
+//let el = document.querySelector('div'); находит самый первый div
+
+//let el = document.querySelectorAll('div'); находит все div
+
+const el = document.querySelector('.last');
+el.style.color = 'blue';
+
+//=====================================================================================
+//3.1.3 Изменение элементов
+
+const input = prompt('Enter a text');
+const el = document.querySelector('.title');
+
+el.innerText = input;
+//-----------------------------------------------
+
+const input = prompt('Enter a text');
+const el = document.querySelector('.title');
+
+el.innerHTML = `<i>${input}</i>`;
+
+
+const outer = document.querySelector('p');
+                                            //добавление элемента
+outer.append(el);
+
+const input = prompt('Enter a message');
+
+const messageEl = document.createElement('p');
+messageEl.innerText = input;
+
+const messageBox = document.querySelector('.messages');
+messageBox.append(messageEl);
+
+setTimeout(removeMessage, 2000);
+
+function hideMessage() {
+    messageEl.hidden = true;
+}
+
+function removeMessage() {
+    messageEl.remove();
+}
+*/
+
+//=================================================================================
+//3.2.2 Обработка событий
+
+//.addEventListener(событие, обработчик); это метод
+
+const button = document.querySelector('.button');
+
+button.addEventListener('click', hideText);
+
+function hideText() {
+    const text = document.querySelector('.text');
+    text.hidden = true;
+
+    const button = document.querySelector('.button');
+    button.removeEventListener('click', hideText);
+    button.addEventListener('click',showText1);
+}
+
+function showText1() {
+    const text = document.querySelector('.text');
+    text.hidden = false;
+
+    const button = document.querySelector('.button');
+    button.removeEventListener('click', showText1);
+    button.addEventListener('click', hideText);
+
+}
+
+//==================================================================================
+//==================================================================================
+//4. Встроенные инструменты
+// 1. Даты
+
+
+
+
+
+
 
 
 
