@@ -2184,6 +2184,26 @@ function showText1() {
 //4. Встроенные инструменты
 // 1. Даты
 
+let date = new Date();
+console.log(date);
+
+//---------------------------------------------
+
+let date = new Date();
+let year = date.getFullYear();
+let dat = date.getDate();
+let h = date.getHours();
+let d = date.getDay();
+console.log(year);
+console.log(dat);
+console.log(h);
+console.log(d);
+
+//================================================================================
+//4.1.2 Форматирование даты
+
+
+
 
 
 
