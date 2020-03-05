@@ -2149,7 +2149,6 @@ function hideMessage() {
 function removeMessage() {
     messageEl.remove();
 }
-*/
 
 //=================================================================================
 //3.2.2 Обработка событий
@@ -2200,8 +2199,52 @@ console.log(h);
 console.log(d);
 
 //================================================================================
+
 //4.1.2 Форматирование даты
 
+
+const input = prompt('DD MM YYYY');
+const [day, month, year] = input.split(' ');
+
+const inputDate = new Date(`${year}-${month}-${day}`);
+
+let diff = Date.now() - inputDate;
+
+diff = diff / 1000 / 60 / 60;
+
+console.log(diff.toFixed(0));   
+
+//Ещё доизучить
+
+//=======================================================================================
+//=======================================================================================
+*/
+
+//2. Обработка ошибок
+
+//let error = new Error('Bad data');
+
+
+
+try {
+    const input = prompt('Enter your name: ');
+
+    const inputArr = input.split(' ');
+
+    if (inputArr.length != 2) {
+        throw new Error('Invalidich11 input');
+    } 
+} catch (err) {
+    alert(err.message);
+}
+
+console.log('+')
+
+//========================================================================
+//=========================================================================
+
+//3. Математические операции
+//Встроенный объект Math()
 
 
 
