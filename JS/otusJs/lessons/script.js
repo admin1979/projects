@@ -2218,7 +2218,6 @@ console.log(diff.toFixed(0));
 
 //=======================================================================================
 //=======================================================================================
-*/
 
 //2. Обработка ошибок
 
@@ -2242,9 +2241,30 @@ console.log('+')
 
 //========================================================================
 //=========================================================================
+*/
 
 //3. Математические операции
 //Встроенный объект Math()
+
+function generateCoef(min, max) {
+    const coef = Math.random() * (max - min) + min;
+    
+    return Math.floor(coef);
+}
+//console.log(generateCoef(2, 30));
+const a = generateCoef(2, 30);
+const b = generateCoef(2, 30);
+
+const input = prompt(`${a}x = ${b}. x = ?`);
+
+const res = Math.floor(b/a);
+
+if (input == res) {
+  alert('Right');
+} else {
+  alert('Wrong');  
+}
+
 
 
 
