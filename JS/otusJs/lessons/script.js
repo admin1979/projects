@@ -2278,7 +2278,6 @@ if(regexp.test(email)) {
     alert('Invalid blya email');
 }
 //--------------------------------------------------------------
-*/
 
 const email = prompt('Enter email!!!');
 const regexp = /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/;
@@ -2291,6 +2290,55 @@ if(regexp.test(email)) {
 
 //=======================================================================================
 //5. Локальные хранилища
+//4.5.1 cookies
+
+document.cookie = 'user=John';
+//перезапись
+document.cookie = 'user=Sam';
+
+document.cookie = 'user=John';
+//не перезаписыватся токен
+document.cookie = 'token=Q025sdWE34';
+
+//document.cookie = 'user=John';
+
+document.cookie = 'user=Sam';
+
+//document.cookie = 'token=Q025sdWE34';
+
+document.cookie = 'token=123; max-age=20';
+
+console.log(document.cookie);
+
+//========================================================================================
+//4.5.2 localStorage и sessionStorage
+*/
+
+// localStorage.clear();
+// console.log(localStorage);
+
+const jsonObj = localStorage.getItem('user');
+
+if (jsonObj) {
+    const obj = JSON.parse(jsonObj);
+    alert(`Hello ${obj.name}`);
+  } else {
+    const input = prompt('Enter your name');
+
+    const obj = {
+        name: input
+    }
+    
+    const jsonObj = JSON.stringify(obj);
+    localStorage.setItem('user', jsonObj);  
+}
+
+
+
+
+
+
+
 
 
 
