@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const exphbs = require('express-handlebars')
 
+
 const app = express();
 
 const hbs = exphbs.create({
@@ -13,12 +14,22 @@ app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 app.set('views', 'views');
 
-app.get('/', (req, res) => {
-    res.render('index'); 
+app.use(express.static('public'));
+
+
+
+app.get('/add', (req, res) => {
+    res.render('add', {
+        title: 'Добавить курс',
+        isAdd: true
+    })
 });
 
-app.get('/about', (req, res) => {
-    res.render('about');
+app.get('/courses', (req, res) => {
+    res.render('courses',{
+       title: 'Курсы',
+       isCourses: true
+    })
 });
 
 
