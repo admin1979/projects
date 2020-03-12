@@ -4,6 +4,21 @@ const booksRouter = express.Router();
 const app = express(); //its working
 const products = ['Apple', 'Pen', 'Computer'];
 
+//тут мы работали с pug, выключено
+// app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
+app.set('views', './views');
+
+app.use((req, res, next) => {
+    console.log('Date', new Date(), 'Method', req.method, 'URL', req.originalUrl, 'IP', req.ip);
+    next();
+});
+
+
+
+app.use(express.static('public'));
+
+
 app.get("/", (req, res, next) => {
     res.send("Its working");
 });
@@ -22,6 +37,25 @@ app.get('/products/:id', (req, res, next) => {
         res.status(403).send('Product not found');
     }
 });
+
+//pug
+app.get('/main', (req, res, next) => {
+    res.render('main', {
+        title: 'Products',
+        message: 'Products List',
+        products: products
+    });
+});
+
+//ejs
+app.get('/ejs', (req, res, next) => {
+    res.render('main', {
+        title: 'Products1',
+        message: 'Products List1',
+        products: products
+    });
+});
+
 
 app.get('/downloadBooks111', (req, res, next) => {
     res.download('./public/books.html', 'anothername', (err) => {
