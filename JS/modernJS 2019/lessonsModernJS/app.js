@@ -66,6 +66,39 @@ console.log(typeof eee);
 
 //007 Строки----------------------------------------------------------------------------
 
- */
 const value = 'Olegas' + ' ' + 'Bachiskis';
 console.log(value);
+ */
+const firstName = 'Denis';
+
+let value;
+
+value = firstName.indexOf('n');
+
+console.log(value);
+console.log(typeof value);
+
+//008 Шаблонные строки----------------------------------------------------------------------
+const f = "Denis";
+const l = 'Minin';
+const age = 13;
+
+let str;
+
+str = '<ul>' +
+    '<li>Имя бля:' + f + '</li>' +
+    '<li>Фамилие:' + l + '</li>' +
+    '<li>ВозростФундаминтальный:' + age + '</li>' +
+    '</ul>';
+
+//ES6
+str = `
+    <ul>
+        <li>Куё моё: ${f}</li>
+        <li>Фамилиё: ${l}</li>
+        <li>возрастт:${age}</li>
+        <li>ПИ:${Math.random()}</li>
+    </ul>
+`;
+
+document.body.innerHTML = str;
