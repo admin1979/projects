@@ -68,7 +68,6 @@ console.log(typeof eee);
 
 const value = 'Olegas' + ' ' + 'Bachiskis';
 console.log(value);
- */
 const firstName = 'Denis';
 
 let value;
@@ -102,3 +101,28 @@ str = `
 `;
 
 document.body.innerHTML = str;
+
+//009 Введение в объекты----------------------------------------------------------
+ */
+
+const user = {
+    firstName: 'Deonis',
+    age: 30,
+    isAdmin: true,
+    email: 'sdsd@ddd.ua',
+    "user - addres": {
+        city: "Kharkov"
+    },
+    skuls: ['html', 'css', 'js']
+};
+
+let value;
+let prop = 'skuls';
+
+value = user.firstName;
+value = user.isAdmin;
+value = user[prop][0];
+
+
+console.log(value);
+//console.log(user);
