@@ -79,16 +79,16 @@ console.log(typeof value);
 
 //008 Шаблонные строки----------------------------------------------------------------------
 const f = "Denis";
-const l = 'Minin';
+const l = "Minin";
 const age = 13;
 
 let str;
 
-str = '<ul>' +
-    '<li>Имя бля:' + f + '</li>' +
-    '<li>Фамилие:' + l + '</li>' +
-    '<li>ВозростФундаминтальный:' + age + '</li>' +
-    '</ul>';
+// str = '<ul>' +
+//     '<li>Имя бля:' + f + '</li>' +
+//     '<li>Фамилие:' + l + '</li>' +
+//     '<li>ВозростФундаминтальный:' + age + '</li>' +
+//     '</ul>';
 
 //ES6
 str = `
@@ -96,33 +96,63 @@ str = `
         <li>Куё моё: ${f}</li>
         <li>Фамилиё: ${l}</li>
         <li>возрастт:${age}</li>
-        <li>ПИ:${Math.random()}</li>
+        <li>Рандом:${Math.random()}</li>
+        <li>Денег:${4 * 2 + 5}</li>
     </ul>
 `;
 
 document.body.innerHTML = str;
 
 //009 Введение в объекты----------------------------------------------------------
- */
-
 const user = {
-    firstName: 'Deonis',
-    age: 30,
-    isAdmin: true,
-    email: 'sdsd@ddd.ua',
-    "user - addres": {
-        city: "Kharkov"
-    },
-    skuls: ['html', 'css', 'js']
+  firstName: "Deonis",
+  age: 30,
+  isAdmin: true,
+  email: "sdsd@ddd.ua",
+  "user - addres": {
+    city: "Kharkov"
+  },
+  skuls: ["html", "css", "js"]
 };
 
 let value;
-let prop = 'skuls';
+let prop = "skuls";
 
 value = user.firstName;
 value = user.isAdmin;
-value = user[prop][0];
-
+value = user[prop][1];
 
 console.log(value);
-//console.log(user);
+console.log(user);
+
+//010 Логические операторы, if statement----------------------------------------------------------
+
+let value;
+
+value = 1 > 2;
+value = 2 <= 2;
+value = 1 === "1";
+value = 2 == true;
+value = "a".charCodeAt();
+value = "b".charCodeAt();
+value = "A".charCodeAt();
+value = "G".charCodeAt();
+value = "G" > "A";
+value = "A" > "G";
+
+console.log(value);
+*/
+
+let number;
+let number2;
+let number3;
+
+number = 30;
+number2 = 10;
+number3 = 15;
+
+if (number < number2) {
+  console.log(number3);
+} else {
+  console.log(number + number2);
+}
