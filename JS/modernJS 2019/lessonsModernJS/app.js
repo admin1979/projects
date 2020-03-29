@@ -141,7 +141,6 @@ value = "G" > "A";
 value = "A" > "G";
 
 console.log(value);
-*/
 
 let number;
 let number2;
@@ -155,4 +154,26 @@ if (number < number2) {
   console.log(number3);
 } else {
   console.log(number + number2);
+}
+
+//----------------------
+
+value = [];
+
+if (value.length) {
+  console.log(value);
+} else {
+  console.log('Нету');
+}
+
+*/
+
+let age = prompt('Введите свой возраст:');
+
+if (age < 16 && age > 60) {
+  console.log("Входите");
+} else if (age !== 51) {
+  alert('возраст age = 51', age);
+} else {
+  console.log('else');
 }
