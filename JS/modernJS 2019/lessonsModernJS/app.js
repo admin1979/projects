@@ -166,7 +166,6 @@ if (value.length) {
   console.log('Нету');
 }
 
-*/
 
 let age = prompt('Введите свой возраст:');
 
@@ -176,4 +175,18 @@ if (age < 16 && age > 60) {
   alert('возраст age = 51', age);
 } else {
   console.log('else');
+}
+*/
+//011 Тернарный оператор. Конструкция switch case-----------------------------
+let color = prompt("Введите цвет:");
+
+switch (color) {
+  case "yellow":
+    console.log("found yellow");
+    break;
+  case "жёлтый":
+    console.log("Найден жёлтый");
+    break;
+  default:
+    alert("DEfault");
 }
