@@ -166,7 +166,6 @@ if (value.length) {
   console.log('Нету');
 }
 
-*/
 
 let age = prompt('Введите свой возраст:');
 
@@ -176,4 +175,26 @@ if (age < 16 && age > 60) {
   alert('возраст age = 51', age);
 } else {
   console.log('else');
+}
+*/
+
+//012 Циклы--------------------------------------------------------------
+// let i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++;
+// }
+
+// let i = 0;
+// while (i++ < 10) {
+//   console.log(i);
+// }
+
+// let i = 20;
+// while (i--) {
+//   console.log(i);
+// }
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
 }
