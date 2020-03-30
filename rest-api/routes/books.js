@@ -1,14 +1,16 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
-let books = [{
+let books = [
+  {
     id: 1,
-    autor: 'Jo Do',
-    title: 'JavaScriptBook'
-}];
+    autor: "Jo Do",
+    title: "JavaScriptBook"
+  }
+];
 
-router.get('/', (req, res) => {
-    res.json(books);
+router.get("/", (req, res) => {
+  res.json(books);
 });
 
 module.exports = router;
