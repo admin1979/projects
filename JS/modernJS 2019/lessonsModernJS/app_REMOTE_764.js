@@ -177,21 +177,6 @@ if (age < 16 && age > 60) {
   console.log('else');
 }
 */
-<<<<<<< HEAD
-//011 Тернарный оператор. Конструкция switch case-----------------------------
-let color = prompt("Введите цвет:");
-
-switch (color) {
-  case "yellow":
-    console.log("found yellow");
-    break;
-  case "жёлтый":
-    console.log("Найден жёлтый");
-    break;
-  default:
-    alert("DEfault");
-}
-=======
 
 //012 Циклы--------------------------------------------------------------
 // let i = 0;
@@ -242,4 +227,3 @@ let res2 = sayHello2("Olehandro", "Bucanerovskiy");
 
 console.log(res);
 console.log(res2);
->>>>>>> 1463fc69fb453785219ead2e0a972a916859882a

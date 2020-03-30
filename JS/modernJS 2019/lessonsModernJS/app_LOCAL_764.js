@@ -177,7 +177,6 @@ if (age < 16 && age > 60) {
   console.log('else');
 }
 */
-<<<<<<< HEAD
 //011 Тернарный оператор. Конструкция switch case-----------------------------
 let color = prompt("Введите цвет:");
 
@@ -191,55 +190,3 @@ switch (color) {
   default:
     alert("DEfault");
 }
-=======
-
-//012 Циклы--------------------------------------------------------------
-// let i = 0;
-// while (i < 10) {
-//   console.log(i);
-//   i++;
-// }
-
-// let i = 0;
-// while (i++ < 10) {
-//   console.log(i);
-// }
-
-// let i = 20;
-// while (i--) {
-//   console.log(i);
-// }
-
-// for (let i = 0; i < 10; i++) {
-//   console.log(i);
-// }
-
-// let colors = ["white", "black", "yellow", "orange"];
-
-// for (let i = 0; i < colors.length; i++) {
-//   colors[i] = colors[i].toUpperCase();
-// }
-
-//console.log(colors);
-
-//013 Введение в функции--------------------------------------------------------------------------
-function sayHello() {
-  //alert("Hello World");
-  console.log("Hello World");
-}
-sayHello();
-
-function sayHello2(
-  firstName = "Default",
-  lastName = "Default1",
-  iho = "Default2"
-) {
-  return `Hello ${firstName} ${lastName} ${iho}`;
-}
-
-let res = sayHello2("Ivan", "Ivaninov", "DennisSun") + " " + "hz?";
-let res2 = sayHello2("Olehandro", "Bucanerovskiy");
-
-console.log(res);
-console.log(res2);
->>>>>>> 1463fc69fb453785219ead2e0a972a916859882a
