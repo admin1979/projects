@@ -280,4 +280,49 @@ foo();
 foo.field = "Dennis";
 
 console.log(foo.field);
+
+const arr = ['Denis', 'Ivan', 'Maks', 'Olga'];
+
+let newArr = [];
+for (let i = 0; i < arr.length; i++) {
+  newArr.push(arr[i].length);
+}
+
+console.log(newArr);
+
+// function highOrder(value, callback) {
+//   const arrFromStr = value.split(' ');
+//   console.log(arrFromStr);
+// }
+
+// function myCallback(char) {}
+
+// highOrder('Denis Mescheryakov');
+
+function question(job) {
+  const jobsDictionary = {
+    developer: 'Что такое JS?',
+    teacher: 'Какой предмет вы преподаете?',
+  };
+
+  return function (name) {
+    return jobsDictionary[job] + ' ' + name;
+  };
+}
+
+const developerQustion = question('developer');
+console.log(developerQustion);
+console.log(developerQustion('Denis'));
+
+//016 Что такое this. Контекст вызова функции------------------------------------------
 */
+
+const prod1 = {
+  name: "itel",
+  price: 100,
+  getPrice: function () {
+    console.log(this.name);
+    console.log(this.price);
+  },
+};
+prod1.getPrice();
