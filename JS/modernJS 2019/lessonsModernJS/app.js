@@ -239,12 +239,45 @@ let res2 = sayHello2("Olehandro", "Bucanerovskiy");
 
 console.log(res);
 console.log(res2);
-*/
 
-const square = function (x) {
+const square = function(x) {
   return x * x;
 };
 
-(function (msg) {
+(function(msg) {
   console.log(msg);
-})('Hello world');
+})("Hello world");
+
+//014 Методы массивов-----------------------------------------
+
+const numArr = [2, 32, 212, 33243, 66];
+const nArr2 = [777, 396, "sega"];
+
+let value;
+
+value = numArr.length;
+value = Array.isArray(numArr);
+value = numArr.indexOf(212);
+value = numArr.push(100);
+value = numArr.pop();
+value = numArr.unshift(4325436);
+value = numArr.shift();
+value = numArr.slice(2, 4);
+value = numArr.splice(1, 1, "сложный", "язык", 1234567);
+value = numArr.concat(nArr2);
+value = "hello world!".split(" ");
+
+console.log(value, numArr);
+
+//015 Функции высшего порядка. Callbacks---------------------------------------------------
+
+function foo() {
+  console.log("Hello");
+}
+
+foo();
+
+foo.field = "Dennis";
+
+console.log(foo.field);
+*/
