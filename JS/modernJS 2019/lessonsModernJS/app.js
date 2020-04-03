@@ -440,5 +440,44 @@ alert(str[4]);
 let num = '12345';
 alert(num[0] * num[1] * num[2] * num[3] * num[4]);
 
-*/
 //Практика
+
+let src = (60 * 60);
+let src1 = (60 * 60 * 24);
+let src2 = (60 * 60 * 24 * 30);
+
+alert(src);
+alert(src1);
+alert(src2);
+
+
+let hour = 10;
+let min = 46;
+let sec = 58;
+
+alert(hour + ':' + min + ':' + sec);
+
+
+
+let num = 3;
+let num2 = Math.pow(num, 2);
+alert(num2);
+
+
+
+//Работа с присваиванием и декрементами
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+alert(num);
+
+
+*/
+
+let num = 10;
+num++;
+num++;
+num--;
+alert(num);
