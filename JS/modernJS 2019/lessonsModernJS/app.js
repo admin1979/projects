@@ -315,7 +315,6 @@ console.log(developerQustion);
 console.log(developerQustion('Denis'));
 
 //016 Что такое this. Контекст вызова функции------------------------------------------
-*/
 
 const prod1 = {
   name: "itel",
@@ -326,6 +325,7 @@ const prod1 = {
   },
 };
 prod1.getPrice();
+<<<<<<< HEAD
 
 //Задачи не из этого курса, отсюда http://old.code.mu/tasks/javascript/base/osnovy-yazyka-javascript-dlya-novichkov.html
 //Работа с переменными
@@ -375,3 +375,36 @@ d = 7;
 let result = c + d;
 
 alert(result);
+=======
+*/
+
+//018 Перебирающие методы массивов---------------------------------------------
+const users = [{
+    _id: "112wewewewrrer3",
+    index: 0,
+    age: 16,
+    phone: 1234567890,
+    isActive: true
+  },
+  {
+    _id: "112wewewewrr4444444444444er3",
+    index: 56,
+    age: 25,
+    phone: 54778575885858858,
+    isActive: false
+  }
+];
+
+// users.forEach((user1, i2, arr33) => {
+//   console.log(user1, i2, arr33);
+// });
+
+// const userLess25 = users.filter(u1 => u1.age < 25);
+// console.log(userLess25);
+
+const userActive = users.filter(u2 => u2.isActive);
+console.log(userActive);
+
+const userPhone = users.map(u3 => u3.phone);
+console.log(userPhone);
+>>>>>>> 6ce7bf29ee3e46f9af7896c5febe1fc7ad11c7da
