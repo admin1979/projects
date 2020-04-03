@@ -406,4 +406,39 @@ d = 7;
 let result = c + d;
 
 alert(result);
+
+//Работа со строками
+const str = ('Привет мир!');
+alert(str);
+
+
+// const str1 = 'Привет,';
+// const str2 = 'Мир!';
+// alert(str1 + str2);
+
+const name = 'Olegas';
+alert('Привет ' + name);
+
+const age = 20;
+alert('Мне ' + age + ' лет!');
+
+//Функция Prompt
+let name = prompt('Enter you name');
+alert('Your name' + ': ' + name);
+
+
+let number = +prompt('Enter a number: ');
+let number2 = Math.pow(number, 2);
+alert(number2);
+//Обращение к символам строки
+let str = 'abcde';
+alert(str[0]);
+alert(str[2]);
+alert(str[4]);
+
+
+let num = '12345';
+alert(num[0] * num[1] * num[2] * num[3] * num[4]);
+
 */
+//Практика
