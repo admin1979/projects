@@ -326,3 +326,52 @@ const prod1 = {
   },
 };
 prod1.getPrice();
+
+//Задачи не из этого курса, отсюда http://old.code.mu/tasks/javascript/base/osnovy-yazyka-javascript-dlya-novichkov.html
+//Работа с переменными
+//1
+// let num;
+// num = 3;
+// alert(num);
+
+//2
+// let a = 10;
+// let b = 2;
+
+// alert(a + b);
+// alert(a - b);
+// alert(a / b);
+
+//3
+// let c;
+// let d;
+// c = 15;
+// d = 2;
+// let result = c + d;
+// alert(result);
+
+//4
+// let a = 10;
+// let b = 2;
+// let c = 5;
+// let s = (a + b + c);
+
+// alert(s);
+//5
+
+let a;
+let b;
+
+let c;
+let d;
+
+a = 17;
+b = 10;
+
+c = a - b;
+
+d = 7;
+
+let result = c + d;
+
+alert(result);
