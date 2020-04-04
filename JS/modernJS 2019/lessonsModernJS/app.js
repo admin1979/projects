@@ -474,10 +474,47 @@ num /= 15;
 alert(num);
 
 
-*/
-
 let num = 10;
 num++;
 num++;
 num--;
 alert(num);
+
+//Работа с массивами
+
+let arr = ['a', 'b', 'c'];
+alert(arr[0]);
+alert(arr[1]);
+alert(arr[2]);
+
+let arr = ['a', 'b', 'c', 'd'];
+alert(arr[0] + '+' + arr[1] + ', ' + arr[2] + '+' + arr[3] + '.');
+
+let arr = [2, 5, 3, 9];
+let result = (arr[0] * arr[1] + arr[2] * arr[3]);
+alert(result);
+
+let sex = ['salun', 'home', 'x'];
+sex.splice(0, 1);
+alert(sex);
+
+//Объекты (ассоциативные массивы)
+
+let obj = {
+  a: 1,
+  b: 2,
+  c: 3
+};
+alert(obj.a);
+alert(obj['c']);
+
+let obj = {
+  Коля: '100000',
+  Вася: '222222',
+  Петя: '3443254'
+};
+alert(obj.Коля);
+alert(obj.Вася);
+alert(obj['Петя']);
+
+*/
