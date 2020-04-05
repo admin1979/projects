@@ -190,10 +190,10 @@ let arr = [
 
 alert(arr[1][0]);
 
-*/
 let obj = {
     js: ['jQuery', 'Angular'],
     php: 'hello',
     css: 'world'
 };
 alert(obj.js[0]);
+*/
