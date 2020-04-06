@@ -171,7 +171,108 @@ alert('1' + true);
 
 
 alert(String(true) + 1);
-*/
 alert(String(true) + Number(true));
 
 //Преобразование к логическому типу в JavaScript
+
+let test = Boolean(3);
+alert(test);
+
+let test = Boolean(0);
+alert(test);
+
+let test = Boolean(-1);
+alert(test);
+
+let test = Boolean(-0);
+alert(test);
+
+let test = Boolean('');
+alert(test);
+
+let test = Boolean('0');
+alert(test);
+
+let test = Boolean(true);
+alert(test);
+
+//Получение символов строки на JavaScript
+let str = 'abcde';
+let num = 2;
+alert(str[0]);
+alert(str[num]);
+alert(str[4]);
+
+let str = 'abcde';
+alert(str[4]);
+alert(str[3]);
+alert(str[2]);
+alert(str[1]);
+alert(str[0]);
+
+let str = '1322ewdfddfrtrt';
+alert(str[str.length - 3]);
+
+let str = '12345';
+let sum = (+(str[0]) + +(str[1]) + +(str[2]) + +(str[3]) + +(str[4]));
+alert(sum);
+
+let str = '12345';
+let sum = ((str[0]) * (str[1]) * (str[2]) * (str[3]) * (str[4]));
+alert(sum);
+
+let num = 12345;
+let str2 = String(num);
+alert(str2[4] + str2[3] + str2[2] + str2[1] + str2[0]);
+
+//Сокращенные операции в JavaScript
+
+let num = 1;
+num = num + 1;
+num = num + 1;
+alert(num);
+
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+
+alert(num);
+
+//Операции инкремента и декремента в JavaScript
+
+let num = 10;
+num++;
+num++;
+num--;
+alert(num);
+
+let num = 3;
+alert(++num);
+
+let num = 3;
+alert(num++);
+
+let num1 = 3;
+let num2 = ++num1;
+alert(num1);
+//alert(num2);
+
+//Функция prompt в JavaScript
+
+let age = +prompt('Введите возраст: ');
+alert('Ваш возраст: ' + age);
+
+let num1 = +prompt('Введите первое число');
+let num2 = +prompt('Введите второе число');
+
+alert(num1 + num2);
+*/
+
+let h = prompt('Введите первую строну квадрата: ');
+let h1 = prompt('Введите вторую сторону квадрата: ');
+let p = (h * h1);
+alert(p);
+
+//Массивы в JavaScript
