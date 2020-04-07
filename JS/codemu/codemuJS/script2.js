@@ -268,7 +268,6 @@ let num1 = +prompt('Введите первое число');
 let num2 = +prompt('Введите второе число');
 
 alert(num1 + num2);
-*/
 
 let h = prompt('Введите первую строну квадрата: ');
 let h1 = prompt('Введите вторую сторону квадрата: ');
@@ -276,3 +275,111 @@ let p = (h * h1);
 alert(p);
 
 //Массивы в JavaScript
+
+let arr = [1, false, 'www.ya.ru', null];
+let sumstr = (String(arr[0]) + String(arr[1]) + String(arr[2]) + String(arr[3]));
+
+
+console.log(sumstr);
+
+let arr = [1, false, 'www.ya.ru', null];
+console.log(arr[arr.length - 1]);
+
+
+let arr = ['a', 'b', 'c'];
+arr[0] = 1;
+arr[1] = 2;
+arr[2] = -3;
+console.log(arr);
+
+let num = [2, 5, 89];
+num[0] += 3;
+num[1] += 3;
+num[2] += 3;
+console.log(num);
+
+let arr = [1, 2, 3];
+arr[0]++;
+arr[1]++;
+arr[2]++;
+console.log(arr);
+
+let arr = [];
+arr[0] = 1;
+arr[1] = 2;
+arr[2] = 3;
+arr[3] = 4;
+arr[4] = 5;
+console.log(arr);
+
+//17.Объекты в JavaScript
+
+let obj = {
+    1: 'a',
+    2: 'b',
+    3: 'c'
+};
+console.log(obj[2]);
+
+let obj = {
+    a: 1,
+    b: 2,
+    c: 3,
+    false: 1
+};
+console.log(obj['b'] + obj['a'] + obj['c'] + obj[false]);
+
+let obj = {
+    '1a': 1,
+    '2b': 2,
+    'c-c': 3
+};
+console.log(obj['1a'] + obj['2b'] + obj['c-c']);
+
+
+let obj = {
+    key1: 1,
+    key2: 2,
+    key3: 3
+};
+console.log(obj.key1 + obj.key2 + obj.key3);
+
+let user = {
+    name: 'Ivan',
+    surname: 'Parhomenko',
+    patronymic: 'Abdurahmanovich'
+};
+console.log(user.surname + ' ' + user.name + ' ' + user['patronymic']);
+
+let date = {
+    year: '2020',
+    month: '04',
+    day: '07',
+    tire: '-'
+};
+console.log(date.year + date.tire + date.month + '-' + date.day);
+//18 Ключи из переменных в JavaScript
+
+let a = ['a',
+    'b',
+    'c'
+];
+let key = 0
+console.log(a[key]);
+
+let arr = [1, 2, 3, 4, 5];
+let key1 = arr[1];
+let key2 = arr[2];
+let result = key1 + key2;
+console.log(result);
+*/
+
+let obj = {
+    'a': 1,
+    'b': 2,
+    'c': 3
+};
+let key = obj.b;
+console.log(key);
+
+//19 Примитивы и объекты. Типизация массивов и объектов в JavaScript
