@@ -372,14 +372,219 @@ let key1 = arr[1];
 let key2 = arr[2];
 let result = key1 + key2;
 console.log(result);
-*/
 
 let obj = {
-    'a': 1,
-    'b': 2,
-    'c': 3
+  a: 1,
+  b: 2,
+  c: 3,
 };
 let key = obj.b;
 console.log(key);
 
 //19 Примитивы и объекты. Типизация массивов и объектов в JavaScript
+
+console.log(typeof {});
+console.log(typeof { a: 1, b: 2, c: 3 });
+console.log(typeof [1, 2, 3]);
+//let arr = [1, 2, 3];
+//console.log(typeof arr[0]);
+let arr = ["1", "2", "3"];
+console.log(typeof arr[0]);
+console.log(Array.isArray([1, 2, 3]));
+console.log(Array.isArray({ a: 1, b: 2, c: 3 }));
+
+let a = [1, 2, 3];
+let b = a;
+
+b[0] = "!"; // меняем массив из переменной b
+console.log(a[0]); // выведет '!' - переменная a тоже поменялась
+console.log(b);
+console.log(b[0]);
+
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
+
+arr1[0] = "a";
+console.log(arr2);
+
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
+
+arr1[0] = "a";
+arr2[1] = "b";
+
+console.log(arr1);
+
+//21 Конструкция if-else в JavaScript
+
+let test = +prompt("Введите число:");
+
+if (test >= 10) {
+  alert("верно это число ");
+} else {
+  alert(Boolean(test) + " " + "else");
+}
+
+let test = +prompt("Введите число:");
+
+if (test == 10) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let test = +prompt("Введите число:");
+
+if (test != 10) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let test1 = +prompt("Enter number 1:");
+let test2 = +prompt("Enter number 2:");
+
+if (test1 > test2) {
+  alert("test1>больше чем test2");
+} else if (test1 < test2) {
+  alert("test1<меньше чем test2");
+} else if (test1 == test2) {
+  alert("равно");
+}
+
+//22 Типы данных и конструкция if-else в JavaScript
+
+let test1 = "3";
+let test2 = "3";
+
+if (test1 === test2) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+let test1 = "3";
+let test2 = "3";
+
+if (test1 != test2) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let test1 = "3";
+let test2 = "3";
+
+if (test1 !== test2) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+let test1 = 3;
+let test2 = "3";
+
+if (test1 != test2) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let test1 = 3;
+let test2 = 2;
+
+if (test1 !== test2) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+//23 Логическое и и или. Сложные условия в if-else в JavaScript
+let num = +prompt("Enter number:");
+
+if (num >= 10 && num <= 20) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let num1 = -10;
+let num2 = -10;
+
+if (num1 >= 0 || num2 >= 0) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let num1 = 0;
+let num2 = 5;
+
+if (num1 >= 0 || num2 >= 0) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let num1 = -5;
+let num2 = 15;
+
+if (num1 >= 0 || num2 >= 0) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+
+let num = 1;
+
+if (num == 0 || num == 1) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+
+let num = 2;
+
+if (num == 0 || num == 1 || num == 2) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+
+let num = 3;
+
+if ((num > 0 && num < 5) || (num > 10 && num < 20)) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let num = 3;
+
+if ((num > 5 && num < 10) || num == 20) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+let num = 3;
+
+if (num > 5 || (num > 0 && num < 3)) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+
+*/
+
+let num = 3;
+
+if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
+  alert("верно");
+} else {
+  alert("неверно");
+}
+
+//Инвертирование высказываний
