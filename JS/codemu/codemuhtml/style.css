@@ -1,61 +1,41 @@
-.odd {
+#elem1 {
     color: red;
 }
 
-.eve {
-    color: green;
-}
-
-.eee {
+#elem2 {
     color: blue;
 }
 
-.xxx {
-    font-size: 30px;
-}
-
-.red {
-    color: red;
-}
-
-.green {
-    color: green;
-}
-
-.blue {
-    color: blue;
-}
-
-h2.header {
-    font-size: 40px;
-}
-
-h3.header {
-    font-size: 30px;
-}
-
-.eee i {
-    color: red;
-}
-
-.eee1 .red1 {
-    color: red;
-}
-
-.q h2 {
-    color: red;
-}
-
-.qq h3.bbb {
-    color: yellow;
-}
-
-.yyy p.ddd {
+#elem3 {
     color: yellowgreen;
 }
 
-.kkk {
-    color: red;
+#elem h2 {
+    color: gray;
 }
 
-/* 32 ошибка новичков */
+#elemq p.text {
+    color: lightcoral;
+}
+
+#elemq li {
+    font: 1em sans-serif;
+}
+
+#elemw p.text {
+    font-family: serif;
+    color: aqua;
+}
+
+#elemy li.text {
+    color: goldenrod;
+    font-family: Arial;
+}
+
+/*36 Выбор элемента по нескольким классам на CSS*/
+
+p.ccc.zzz.ccc {
+    color: pink;
+}
+
+/*37 Несколько селекторов слитно*/
