@@ -577,7 +577,6 @@ if (num > 5 || (num > 0 && num < 3)) {
 }
 
 
-*/
 
 let num = 3;
 
@@ -588,3 +587,194 @@ if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
 }
 
 //Инвертирование высказываний
+let num1 = 1;
+let num2 = 3;
+
+if (!(num1 >= 0 || num2 <= 10)) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+let test = 1;
+
+if (test == false) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+let test = 1;
+
+if (test != true) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+
+let test = NaN;
+
+if (test == false) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+let test = '';
+
+if (test == false) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+let test;
+
+if (test == true) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+
+let test = 3 * 'a';
+alert(test);
+if (test == true) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+let test = true;
+
+if (!test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+let test = true;
+
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+
+let test = 3;
+
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+
+let test = 'abc';
+
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+let test = '';
+
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+let test = 3 * 'abc';
+
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+let test = null;
+
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+//Задача 21
+let test = false;
+
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+let test = -1;
+alert(Boolean(test));
+if (test) {
+  alert('верно');
+} else {
+  alert('неверно');
+}
+
+
+//Сокращенный синтаксис if-else в JavaScript
+let test = 1;
+
+if (test) {
+  alert('yes');
+}
+
+let test = 0;
+if (test == 0)
+  alert('верно');
+else
+  alert('неверно!');
+//Комбинации конструкций if-else в JavaScript
+let day = +prompt('Введите день месяца:');
+if (day <= 10) {
+  alert('первая декада');
+}
+if (day <= 20) {
+  alert('вторая декада');
+}
+if (day <= 31) {
+  alert('третья декада');
+} else {
+  alert('введите дни месяца от 1 до 31');
+}
+
+let day = +prompt('Введите день месяца:');
+if (day <= 10) {
+  alert('первая декада');
+} else if (day <= 20) {
+  alert('вторая декада');
+} else if (day <= 31) {
+  alert('третья декада');
+} else {
+  alert('введите дни месяца строго от 1 до 31')
+}
+*/
+
+
+let age = +prompt('Введите число, строго от 10 до 99:')
+
+if (age <= 10) {
+  if (age >= 99)
+    alert('число меньше 10 или больше 99, их сумма ');
+}
