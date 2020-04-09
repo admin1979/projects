@@ -1,41 +1,11 @@
-#elem1 {
-    color: red;
-}
-
-#elem2 {
+h2 {
+    font-size: 20px;
     color: blue;
 }
 
-#elem3 {
-    color: yellowgreen;
+h2 {
+    font-style: italic;
+    color: red;
 }
 
-#elem h2 {
-    color: gray;
-}
-
-#elemq p.text {
-    color: lightcoral;
-}
-
-#elemq li {
-    font: 1em sans-serif;
-}
-
-#elemw p.text {
-    font-family: serif;
-    color: aqua;
-}
-
-#elemy li.text {
-    color: goldenrod;
-    font-family: Arial;
-}
-
-/*36 Выбор элемента по нескольким классам на CSS*/
-
-p.ccc.zzz.ccc {
-    color: pink;
-}
-
-/*37 Несколько селекторов слитно*/
+/*41 Состояние ссылок на CSS*/
