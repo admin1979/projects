@@ -778,7 +778,6 @@ if (age <= 10) {
     alert('число меньше 10 или больше 99, их сумма ');
 }
 
-*/
 let age1 = +prompt('Введите число:');
 let age = age1;
 if (age <= 10 || age >= 99) {
@@ -793,3 +792,109 @@ if ((age + age) <= 9) {
 }
 
 //Область видимости let и var в if-else
+let age = 17;
+let adult;
+
+if (age >= 18) {
+  adult = true;
+} else {
+  adult = false;
+}
+
+console.log(adult);
+
+let age = 17;
+let adult;
+
+if (age >= 18) {
+  let adult = true;
+} else {
+  let adult = false;
+  console.log(adult);
+}
+
+let age = 17;
+let adult;
+
+if (age >= 18) {
+  adult = true;
+} else {
+  let adult = false;
+  console.log(adult);
+}
+
+let age = 23;
+let result;
+
+if (age >= 18) {
+  if (age <= 23) {
+    let result = "от 18 до 23";
+    console.log(result);
+  } else {
+    let result = "больше 23";
+    console.log(result);
+  }
+} else {
+  let result = "меньше 18";
+  console.log(result);
+}
+
+let age = 19;
+let result;
+
+if (age >= 18) {
+  let result;
+  if (age <= 23) {
+    result = "от 18 до 23";
+    console.log(result);
+  } else {
+    result = "больше 23";
+    console.log(result);
+  }
+} else {
+  result = "меньше 18";
+  console.log(result);
+}
+
+let num = 1;
+
+if (num == 1) {
+  var result = "верно";
+} else {
+  var result = "неверно";
+}
+
+console.log(result);
+
+
+let num = 1;
+
+if (num == 1) {
+  let result = "верно";
+} else {
+  let result = "неверно";
+}
+
+console.log(result);
+
+//29 Примеры использования if-else в JavaScript
+
+let min = prompt("Введите время:");
+
+if (min >= 0 && min < 19) {
+  console.log("Первая треть часа");
+}
+if (min >= 20 && min <= 40) {
+  console.log("Вторая треть часа");
+}
+if (min >= 41 && min <= 60) {
+  console.log("Третья треть часа");
+}
+
+*/
+let arr = [45, "abc", 98, "eeee"];
+if (arr.length >= [6]) {
+  console.log("yes");
+} else if (arr.length < [6]) {
+  console.log("no");
+}
