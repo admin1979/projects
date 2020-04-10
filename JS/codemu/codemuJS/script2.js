@@ -891,10 +891,39 @@ if (min >= 41 && min <= 60) {
   console.log("Третья треть часа");
 }
 
-*/
 let arr = [45, "abc", 98, "eeee"];
 if (arr.length >= [6]) {
   console.log("yes");
 } else if (arr.length < [6]) {
   console.log("no");
 }
+
+let num = prompt('Введите трёхзначное число:');
+let num2 = String(num)[2];
+if (num2 == 0) {
+  alert('последняя цифра введённого числа =0');
+} else {
+  alert('последняя цифра введённого числа !=0');
+}
+
+let num = prompt('Введите первое число:');
+let num1 = prompt('Введите второе число:');
+
+let num2 = (num % num1);
+if (num2 != 0) {
+  alert('число нечётное');
+} else {
+  alert('Число чётное');
+}
+
+*/
+let num = prompt('Введите число:');
+let num2 = (num % 3);
+
+if (num2 == 0) {
+  alert('число делится на три нацело');
+} else {
+  alert('число делится на 3 с остатком' + ' ' + num2);
+}
+
+//30 Практика на условия if-else в JavaScript
