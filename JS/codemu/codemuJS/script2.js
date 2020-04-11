@@ -916,7 +916,6 @@ if (num2 != 0) {
   alert('Число чётное');
 }
 
-*/
 let num = prompt('Введите число:');
 let num2 = (num % 3);
 
@@ -927,3 +926,64 @@ if (num2 == 0) {
 }
 
 //30 Практика на условия if-else в JavaScript
+
+let month = prompt('Введите номер месяца или название месяца:');
+
+if (month == 1 || month == "январь") {
+  alert("зима");
+} else if (month == 2 || month == "февраль") {
+  alert('зима');
+} else if (month == 3 || month == "март") {
+  alert('весна');
+} else if (month == 4 || month == "апрель") {
+  alert('весна');
+} else if (month == 5 || month == "май" || month == "Май") {
+  alert('весна');
+} else if (month == 6 || month == "июнь") {
+  alert('лето');
+} else if (month == 7 || month == "июль") {
+  alert('лето');
+} else if (month == 8 || month == "август") {
+  alert('лето');
+} else if (month == 9 || month == "сентябрь") {
+  alert('осень');
+} else if (month == 10 || month == "октябрь") {
+  alert('осень');
+} else if (month == 11 || month == "ноябрь") {
+  alert('осень');
+} else if (month == 12 || month == "декабрь") {
+  alert('зима, месяц декабрь');
+} else {
+  alert('введите правильно');
+}
+*/
+
+
+let month = 10;
+if (month == 1 || month == "январь") {
+  alert("зима");
+} else if (month == 2) {
+  alert('зима');
+} else if (month == 3) {
+  alert('весна');
+} else if (month == 4) {
+  alert('весна');
+} else if (month == 5) {
+  alert('весна');
+} else if (month == 6) {
+  alert('лето');
+} else if (month == 7) {
+  alert('лето');
+} else if (month == 8) {
+  alert('лето');
+} else if (month == 9) {
+  alert('осень');
+} else if (month == 10) {
+  alert('осень');
+} else if (month == 11) {
+  alert('осень');
+} else if (month == 12) {
+  alert('зима');
+} else {
+  alert('введите правильно');
+}
