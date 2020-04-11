@@ -147,3 +147,27 @@ a:hover {
 }
 
 /*48 Разные скругления для разных углов CSS*/
+
+.g13 {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  border: 1px solid green;
+  border-radius: 10px 30px 20px;
+}
+
+.g13 {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+body {
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-position: 20px 40px;
+}
+
+/*Блочная модель*/
