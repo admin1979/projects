@@ -956,7 +956,6 @@ if (month == 1 || month == "январь") {
 } else {
   alert('введите правильно');
 }
-*/
 
 
 let month = 10;
@@ -987,3 +986,65 @@ if (month == 1 || month == "январь") {
 } else {
   alert('введите правильно');
 }
+
+
+let str = 'xbcde';
+if (str[0] == 'a') {
+  alert('да первая буква это а');
+} else {
+  alert('не а');
+}
+
+let num = 32345;
+let num1 = String(num);
+if (num1[0] == 1 || num1[0] == 2 || num1[0] == 3) {
+  alert('да' + ' ' + num1[0]);
+} else {
+  alert('нет' + ' ' + num1[0]);
+}
+
+let num = 123;
+let num1 = String(num);
+let a = +num1[0];
+let b = +num1[1];
+let c = +num1[2];
+
+alert(a + b + c);
+
+let num = prompt('введите 6-ти значное число:');
+
+//let num = 345345;
+let num1 = String(num);
+if ((+num1[0]) + (+num1[1]) + (+num1[2]) == (+num1[3]) + (+num1[4]) + (+num1[5])) {
+  alert('да');
+} else {
+  alert('нет');
+}
+
+// Конструкция switch-case в JavaScript
+let num = prompt('Введите цифры от 1-4:');
+switch (num) {
+  case '1':
+    alert('зима');
+    break;
+  case '2':
+    alert('весна');
+    break;
+  case '3':
+    alert('лето');
+    break;
+  case '4':
+    alert('осень');
+    break;
+  default:
+    alert('вечное лето');
+    break;
+}
+
+*/
+
+let num = prompt("Цифра:");
+let result = num < 0 ? true : false;
+alert(result);
+
+//33.Логические операции
