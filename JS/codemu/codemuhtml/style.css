@@ -1,173 +1,19 @@
-a {
-  color: red;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.zzz a {
-  color: yellowgreen;
-  text-decoration-color: teal;
-}
-
-.zzz a:hover {
-  text-decoration: none;
-  color: firebrick;
-}
-
-/*43 Оформление.Фоновый цвет*/
-
-#elem {
-  width: 200px;
-  height: 200px;
-  background-color: indigo;
-  color: white;
-}
-
-#elem p {
-  text-align: center;
-}
-
-.g {
-  width: 300px;
-  height: 200px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: blue;
-  margin-top: 40px;
-}
-
-.g1 {
-  width: 300px;
-  height: 200px;
-  border-style: dotted;
-  border-width: 5px;
-  border-color: red;
-  margin-top: 40px;
-}
-
-.g2 {
-  width: 300px;
-  height: 200px;
-  border-style: dashed;
-  border-width: 1.5px;
-  border-color: orange;
-  margin-top: 30px;
-}
-
-.g3 {
-  width: 300px;
-  height: 200px;
-  border-style: double;
-  border-width: 8px;
-  border-color: blue;
-  margin-top: 30px;
-}
-
-/*Свойство-сокращение для границы на CSS*/
-.g4 {
-  width: 300px;
-  height: 200px;
-  margin-top: 30px;
-  border-color: red;
-  border-style: solid;
-  border-width: 1px;
-}
-
-#g5 {
-  width: 300px;
-  height: 200px;
-  margin-top: 30px;
-  border-color: blue;
-  border-style: dotted;
-  border-width: 1.5px;
-}
-
-#g6 {
-  width: 300px;
-  height: 200px;
-  margin-top: 30px;
-  border-color: green;
-  border-style: dashed;
-  border-width: 2px;
-}
-
-#g7 {
-  width: 300px;
-  height: 200px;
-  margin-top: 30px;
-  border-color: orange;
-  border-style: double;
-  border-width: 6px;
-}
-
-.g8 {
-  width: 400px;
-  height: 300px;
-  margin-top: 30px;
-  border-top: 3px solid blue;
-  border-bottom: 3px solid red;
-  border-right: 3px solid green;
-  border-left: 3px solid orange;
-}
-
-.g9 {
-  width: 300px;
-  height: 200px;
-  margin-top: 30px;
-  border-top: 1px solid blue;
-  border-bottom: 1px solid blue;
-  border-right: 3px dotted green;
-  border-left: 3px solid red;
-}
-
-#g10 {
-  width: 200px;
-  height: 200px;
-  margin-top: 30px;
-  border: 2px solid green;
-  border-radius: 10px;
-}
-
-#g11 {
-  width: 200px;
-  height: 200px;
-  margin-top: 30px;
-  background-color: greenyellow;
-  border-radius: 25px;
-}
-
-#g12 {
-  width: 300px;
-  height: 300px;
-  margin-top: 30px;
-  border: 1.5px solid green;
-  border-radius: 150px;
-}
-
-/*48 Разные скругления для разных углов CSS*/
-
-.g13 {
-  width: 200px;
-  height: 200px;
-  margin-top: 30px;
-  border: 1px solid green;
-  border-radius: 10px 30px 20px;
-}
-
-.g13 {
-  width: 200px;
-  height: 200px;
-  margin-top: 30px;
-  border: 1px solid green;
-  border-radius: 50%;
-}
-
-body {
-  background-image: url("images/bg.png");
-  background-repeat: no-repeat;
-  background-position: 20px 40px;
-}
-
 /*Блочная модель*/
+/* 53 внешний отступ margin */
+#elem {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid red;
+  text-align: justify;
+  margin: 40px 0px 0px 30px;
+}
+
+#elem1 {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid green;
+  text-align: justify;
+
+}
+
+/* 59 */
