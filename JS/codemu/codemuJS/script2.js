@@ -1041,10 +1041,89 @@ switch (num) {
     break;
 }
 
-*/
 
 let num = prompt("Цифра:");
 let result = num < 0 ? true : false;
 alert(result);
 
 //33.Логические операции
+
+let a = 1;
+let b = 2;
+
+console.log(a == b);
+
+
+let a = 2 * (3 - 1);
+let b = 6 - 2;
+console.log(a == b);
+
+let a = 5 * (7 - 4);
+let b = 1 + 2 + 7;
+
+console.log(a > b);
+let a = 2 ** 4;
+let b = 4 ** 2;
+
+console.log(a != b);
+console.log(a);
+console.log(b);
+
+
+let x = 1;
+
+(x < 0) || (x = 1) && alert('Greater than zero!');
+
+
+alert(Boolean('ssssas'));
+
+alert(null || 2 || undefined);
+
+
+alert(alert(1) || 2 || alert(3));
+
+alert(alert(1) && alert(2));
+
+alert(null || 2 && 3 || 4);
+
+let age = prompt("Enter the fight zone:")
+if (age >= 14 && age < 90) {
+  alert('да');
+} else {
+  alert('нет');
+}
+
+if (-1 || 0) alert('first');
+
+if (-1 && 0) alert('second');
+
+//Проверка логина https://learn.javascript.ru/logical-operators
+let loginp = prompt('Хто там, введите логин?', '');
+let password = 54321;
+
+if (loginp == 'admin') { //Почему тут не работает if (loginp == 'admin'||loginp== 'Admin')
+  let password_p = prompt('введите пароль:', '');
+  if (password_p == password) {
+    alert('Здрасти');
+  } else if (password_p == '' || password_p == null) {
+    alert('Отменено');
+  } else {
+    alert('Неверный пароль');
+  }
+} else if (loginp == '' || loginp == null) {
+  alert('Отмена');
+} else {
+  alert('Я вас не знаю');
+}
+*/
+
+//34 Функция confirm в JavaScript
+
+let ok = confirm('Есть 18?');
+if (ok) {
+  alert('Текст для тем кому 18')
+} else {
+  alert('ЗапрещёнПокиньте');
+}
+
+//35.Цикл while
