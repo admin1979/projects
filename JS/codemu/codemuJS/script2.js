@@ -1115,7 +1115,6 @@ if (loginp == 'admin') { //Почему тут не работает if (loginp 
 } else {
   alert('Я вас не знаю');
 }
-*/
 
 //34 Функция confirm в JavaScript
 
@@ -1127,3 +1126,40 @@ if (ok) {
 }
 
 //35.Цикл while
+
+let i = 11; // задаем какую-нибудь переменную
+
+while (i <= 33) {
+  console.log(i); // выводим содержимое i в консоль
+  i++; // увеличиваем i на единицу при каждом проходе цикла
+}
+let i = 33; // начальное значение 10
+
+while (i >= 0) {
+  // пока i больше 1
+  console.log(i);
+  i--; // уменьшаем i на единицу
+}
+
+let i = 15;
+while (i <= 25) {
+  console.log(i);
+  i++;
+}
+
+let i = 10;
+while (i <= 16) {
+  console.log(i);
+  i++;
+}
+//Цикл for в JavaScript
+for (let i = 15; i <= 25; i++) {
+  console.log(i); // выведет 1, 2... 9
+}
+*/
+
+for (let i = 100; i >= -100; i--) {
+  console.log(i);
+}
+
+//38.Накопление результата в цикле JavaScript
