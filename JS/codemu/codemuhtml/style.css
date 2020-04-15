@@ -19,10 +19,8 @@
 */
 /* 59 */
 
-
 /* 60.Блочные элементы */
 /* 61.Особенности строчных элементов в СSS */
-
 
 .str {
   display: inline;
@@ -47,3 +45,72 @@
 }
 
 /* 65.Выравнивание блочных элементов на CSS */
+.c1 {
+  height: 200px;
+  width: 600px;
+  border: 1px solid gray;
+}
+
+.c2 {
+  height: 100px;
+  width: 200px;
+  border: 2px dashed red;
+  margin: 40px auto;
+}
+
+.c2 p {
+  padding: 10px;
+}
+
+.d1 {
+  height: 350px;
+  width: 800px;
+  border: 2px solid red;
+  margin-top: 100px;
+}
+
+.d2 {
+  height: 100px;
+  width: 100px;
+  border: 1px solid green;
+  margin: 10px auto 10px auto;
+}
+
+.d3 {
+  height: 100px;
+  width: 200px;
+  border: 1px solid green;
+  margin: 10px auto 10px auto;
+}
+
+.d4 {
+  height: 100px;
+  width: 300px;
+  border: 1px solid green;
+  margin: 10px auto 10px auto;
+}
+
+.d4 p {
+  text-align: center;
+}
+
+/* Выравнивание строчных элементов */
+.parent {
+  padding: 10px 0;
+  border: 1px solid red;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.parent a {
+  border: dashed;
+}
+
+.parent1 {
+  padding-right: 10px;
+  border: 1px solid red;
+  text-align: right;
+}
+
+/*67.Выравнивание строчно-блочных элементов
+} */
