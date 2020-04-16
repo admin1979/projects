@@ -1156,10 +1156,129 @@ while (i <= 16) {
 for (let i = 15; i <= 25; i++) {
   console.log(i); // выведет 1, 2... 9
 }
-*/
 
 for (let i = 100; i >= -100; i--) {
   console.log(i);
 }
 
 //38.Накопление результата в цикле JavaScript
+
+let result = 0;
+
+for (let i = 1; i <= 100; i++) {
+  result = result + i;
+}
+
+console.log(result); // искомая сумма
+
+let result = 0;
+
+for (let i = 2; i <= 100; i++) {
+  result = result + i;
+}
+
+console.log(result); // искомая сумма
+
+//39.Цикл for для массивов в JavaScript
+
+let arr = [1, 2, 3, 4, 5, 6, 'xyz'];
+
+for (let i = 0; i <= 6; i++) {
+  console.log(arr[i]);
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 'xyz', 33, 'ss'];
+
+for (let i = 0; i <= arr.length - 1; i++) {
+  console.log(arr[i]);
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 'xyz', 33, 'ss'];
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+//Перебор массива и if
+
+let arr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 !== 0) {
+    console.log(arr[i]);
+  }
+}
+
+let result = 0;
+let arr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr.length; i++) {
+  result += arr[i] * arr[i];
+}
+
+console.log(result);
+
+let arr = [2, 5, 9, 15, 1, 4];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > 3 < 10) {
+    console.log(arr[i]);
+  }
+}
+
+
+//Перебор массива циклом for-of в JavaScript
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+for (let g of arr) {
+  console.log(g);
+}
+
+
+let arr = [1, 2, 3, 4, 5];
+for (let g of arr) {
+  console.log(g + g);
+}
+
+let arr = ['январь',
+  'февраль',
+  'март',
+  'апрель',
+  'май',
+  'июнь',
+  'июль',
+  'август',
+  'сентябрь'
+];
+// for (let month of arr) {
+//   console.log(month);
+// }
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+*/
+
+let arr = ['январь',
+  'февраль',
+  'март',
+  'апрель',
+  'май',
+  'июнь',
+  'июль',
+  'август',
+  'сентябрь',
+  'октябрь',
+  'ноябрь'
+];
+
+let month = arr[10]
+
+console.log(month.italics());
+
+//41.Перебор объекта циклом for-in в JavaScript
