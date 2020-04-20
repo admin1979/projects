@@ -1287,7 +1287,6 @@ let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
 for (let key in obj) {
   console.log(obj[key]); //Полное гавно а не задача, нет объяснения.
 }
-*/
 
 //Сокращенный синтаксис циклов в JavaScript
 //Общий синтаксис цикла for в JavaScript
@@ -1295,4 +1294,68 @@ for (let i = 0, j = 0; i <= 9; i++, j += 2) {
   console.log(i, j);
 }
 
-//43
+//44.Инструкция break в JavaScript
+let arr = [56, 0, 4, -1, 9, 2, 3, -1];
+for (let el of arr) {
+  if (el == 3) {
+    console.log("есть");
+    break;
+  }
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let elem of arr) {
+  let result;
+
+  if (elem % 2 == 0) {
+    result = elem * elem;
+  } else if (elem % 3 == 0) {
+    result = elem * elem * elem;
+  } else {
+    continue;
+  }
+
+  console.log(result); // вынесли вывод за условие
+}
+
+//Работа с флагами в JavaScript
+
+let arr = [1, 2, 3, 4, 3, 5];
+
+for (let elem of arr) {
+  if (elem == 3) {
+    console.log("есть"); // выведет несколько раз
+    break;
+  }
+}
+
+let arr = [1, 2, 3, 4, 5];
+let flag = false; // считаем, что элемента 3 нет в массиве
+
+for (let elem of arr) {
+  if (elem == 3) {
+    flag = true; // элемент есть - переопределим переменную flag
+    break; // выйдем из цикла
+  }
+}
+console.log(flag);
+*/
+
+let arr = ["a", "b", "c", "d", "e"];
+let flag = false;
+
+for (let elem of arr) {
+  if (elem == "a") {
+    flag = true;
+    break;
+  }
+}
+
+if (flag === true) {
+  console.log("есть");
+} else {
+  console.log("нет");
+}
+
+//48.Нахождение простых чисел на JavaScript
