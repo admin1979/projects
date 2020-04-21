@@ -1340,7 +1340,6 @@ for (let elem of arr) {
   }
 }
 console.log(flag);
-*/
 
 let arr = ["a", "b", "c", "d", "e"];
 let flag = false;
@@ -1359,3 +1358,34 @@ if (flag === true) {
 }
 
 //48.Нахождение простых чисел на JavaScript
+
+//Формирование строк через циклы в JavaScript
+
+let str = '-';
+
+for (let i = 9; i > 0; i--) {
+  str = str + i + '-';
+}
+
+console.log(str);
+
+//Цикл for и типы данных JavaScript
+
+let result = '';
+
+for (let i = 1; i <= 30; i++) {
+  result += i;
+}
+
+console.log(result);
+
+//52.Вложенные циклы в JavaScript
+*/
+
+for (let i = 1; i <= 9; i++) {
+  for (let j = 1; j <= 3; j++) {
+    document.write(i);
+  }
+}
+
+//53.Вложенные циклы и область видимости в JavaScript
