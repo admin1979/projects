@@ -1380,7 +1380,6 @@ for (let i = 1; i <= 30; i++) {
 console.log(result);
 
 //52.Вложенные циклы в JavaScript
-*/
 
 for (let i = 1; i <= 9; i++) {
   for (let j = 1; j <= 3; j++) {
@@ -1388,4 +1387,121 @@ for (let i = 1; i <= 9; i++) {
   }
 }
 
-//53.Вложенные циклы и область видимости в JavaScript
+// 54.Заполнение массивов через цикл в JavaScript
+let arr = [];
+arr[0] = 1;
+arr[1] = 2;
+arr[2] = 3;
+arr[3] = 4;
+arr[4] = 5;
+arr[5] = 6;
+arr[6] = 7;
+arr[7] = 8;
+arr[8] = 9;
+arr[9] = 10;
+
+console.log(arr);
+
+let arr2 = [];
+arr2[0] = "x";
+arr2[1] = "x";
+arr2[2] = "x";
+arr2[3] = "x";
+arr2[4] = "x";
+
+console.log(arr2);
+
+
+let arr = [];
+
+for (let i = 0; i <= 100; i++) {
+  arr[i] = i + 1;
+}
+
+document.write(arr);
+
+let arr = [];
+
+for (let i = 2; i <= 100; i += 2) {
+  arr[i] = i;
+}
+
+document.write(arr);
+let arr = [];
+
+for (let i = 1, j = 0; i <= 100; i += 3, j++) {
+  arr[j] = i;
+}
+document.write(arr);
+
+
+// 55.Изменение массива в цикле JavaScript
+
+let arr = [1, 2, 3, 4, 5];
+
+arr[0] = arr[0] * 2;
+arr[1] = arr[1] * 2;
+arr[2] = arr[2] * 2;
+arr[3] = arr[3] * 2;
+arr[4] = arr[4] * 2;
+
+document.write(arr); // выведет [2, 4, 6, 8, 10]
+
+let arr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr.length; i++) {
+  arr[i] = Math.pow(arr[i], 3);
+}
+
+console.log(arr); // выведет [2, 4, 6, 8, 10]
+
+// Сокращенные операции
+
+let arr = [5, 6, 7, 8, 9, 10];
+for (let i = 0; i < arr.length; i++) {
+  arr[i] += 10;
+}
+document.write(arr);
+
+// 56.Заполнение массива методом push в JavaScript
+
+let arr = [];
+
+arr.push(1);
+arr.push(2);
+arr.push(3);
+arr.push(4);
+arr.push(5);
+arr.push(6);
+arr.push(7);
+arr.push(8);
+arr.push(9);
+arr.push(10);
+
+document.write(arr);
+console.log(arr);
+
+
+let arr = [];
+
+for (let i = 1; i <= 10; i++) {
+  arr.push(i);
+}
+
+console.log(arr); // выведет [1, 2, 3, 4, 5]
+
+// Заполнение массива из другого массива
+*/
+
+let arr = [1, -9, 2, -3, 4, 5, 0, -123, -10];
+let result = [];
+
+for (let elem of arr) {
+  if (elem > 0) {
+    result.push(elem);
+  }
+}
+
+console.log(result);
+
+//Переворот массива это всё в 56 пункте
