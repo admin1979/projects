@@ -1491,7 +1491,6 @@ for (let i = 1; i <= 10; i++) {
 console.log(arr); // выведет [1, 2, 3, 4, 5]
 
 // Заполнение массива из другого массива
-*/
 
 let arr = [1, -9, 2, -3, 4, 5, 0, -123, -10];
 let result = [];
@@ -1505,3 +1504,160 @@ for (let elem of arr) {
 console.log(result);
 
 //Переворот массива это всё в 56 пункте
+let arr = [-1, 9, 30, 0, -40, -7, "a"];
+let result = [];
+for (let elem of arr) {
+  if (elem > 0 || elem == 0) {
+    result.push(elem);
+  }
+}
+
+console.log(result);
+document.write(result);
+
+let arr = [1, 2, 3, 4, 5];
+let result = arr.reverse();
+console.log(result);
+
+let arr = ["a", "b", "c", "d", "e"];
+let result = [];
+for (let i = arr.length - 1; i >= 0; i--) {
+  result.push(arr[i]);
+}
+
+console.log(result);
+
+let arr = [];
+arr.push('a');
+arr.push('b');
+arr.push('c');
+console.log(arr);
+
+let arr = [];
+for (let i = 1; i <= 5; i++) {
+  arr.push(i);
+}
+
+document.write(arr);
+
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let result = [];
+for (let elem of arr) {
+  if (elem % 2 != 0) {
+    result.push(elem);
+  }
+}
+
+console.log(result);
+
+// 57.Заполнение объектов через цикл в JavaScript
+
+let obj = {};
+obj['a'] = 1;
+obj['b'] = 2;
+obj['c'] = 3;
+obj['d'] = 4;
+obj['e'] = 5;
+console.log(obj);
+
+let day = {};
+day['пн'] = 1;
+day['вт'] = 2;
+day['ср'] = 3;
+day['чт'] = 4;
+day['пт'] = 5;
+day['сб'] = 6;
+day['вс'] = 7;
+console.log(day);
+
+let keys = ['a', 'b', 'c', 'd', 'e'];
+let values = [1, 2, 3, 4, 5];
+let obj = {};
+
+for (let i = 0; i <= 4; i++) {
+  let key = keys[i];
+  let value = values[i];
+
+  obj[key] = value;
+}
+
+console.log(obj);
+
+let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+let arr2 = [1, 2, 3, 4, 5, 6, 7];
+let obj = {};
+
+for (let i = 0; i <= 6; i++) {
+  let key = arr2[i];
+  let value = arr1[i];
+
+  obj[key] = value;
+}
+console.log(obj);
+
+let obj = {
+  'a': 12,
+  'b': 21,
+  'c': 13,
+  'd': 23,
+  'e': 17
+};
+let result = {};
+for (let key in obj) {
+  if (obj[key] >= 10 && obj[key] <= 20) {
+    result[key] = obj[key];
+  }
+}
+console.log(result);
+
+let obj = {
+  1: 'пн',
+  2: 'вт',
+  3: 'ср',
+  4: 'чт',
+  5: 'пт',
+  6: 'сб',
+  7: 'вс'
+};
+
+let result = {};
+for (let key in obj) {
+  if (key % 2 !== 0) {
+    result[key] = obj[key];
+  }
+}
+console.log(result);
+
+let obj = {
+  'a': 1,
+  'b': 2,
+  'c': 3,
+  'd': 4,
+  'e': 5
+};
+
+for (let key in obj) {
+  obj[key] = Math.pow(obj[key], 5);
+}
+
+console.log(obj);
+
+let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let result = {};
+
+*/
+let obj = {
+  a: 1,
+  b: 2,
+  c: 3,
+  d: 4,
+  e: 5
+};
+let result = {};
+
+for (let key in obj) {
+  result[obj[key]] = key;
+}
+
+console.log(result); // выведет {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
