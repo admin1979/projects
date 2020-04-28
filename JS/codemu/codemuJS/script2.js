@@ -1662,6 +1662,7 @@ for (let key in obj) {
 console.log(result); // выведет {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
 
 // 58.Практика на циклы с массивами и объектами JavaScriptt
+*/
 
 let obj = {
   employee1: 100,
@@ -1681,5 +1682,3 @@ for (let key in obj) {
 }
 
 console.log(result);
-
-*/
