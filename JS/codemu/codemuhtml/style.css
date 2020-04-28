@@ -1,66 +1,24 @@
-/* 73.Позиционирование относительно абсолютного родителя на CSS */
-#elem {
-  position: fixed;
-  /* задаем фиксированное позиционирование */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 55px;
-  border: 1px solid green;
-  background-color: rgb(178, 238, 37);
-
-}
-
-#elem h3 {
-  text-align: center;
-  color: #fff;
-
-}
-
-#content {
-  width: 100%;
-  height: 100%;
-  border: 1px solid rgb(178, 238, 37);
-  margin: 70px auto;
-  width: 700px;
-  text-align: justify;
-  font: 16px Arial;
-  padding: 20px;
-}
-
-/* 78.Наложение элементов по оси Z  */
-
-#el1 {
-  position: absolute;
-  top: 130px;
-  left: 30px;
-
-  width: 100px;
-  height: 100px;
-  background: #ff8888;
-  z-index: 1;
-}
-
-#el2 {
-  position: absolute;
-  top: 180px;
-  left: 80px;
-
-  width: 100px;
-  height: 100px;
-  background: #7e89eb;
-  z-index: -1;
-}
-
-#el3 {
-  position: absolute;
-  top: 240px;
-  left: 140px;
-
-  width: 100px;
-  height: 100px;
-  background: #4DEE99;
-  z-index: 0;
-}
-
 /* 79.Введение в свойство float */
+div {
+  width: 700px;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+p {
+  margin: 20px;
+  /* padding-left: 30px; */
+
+}
+
+.img1 {
+  float: left;
+  margin: 10px;
+  opacity: 0.5;
+}
+
+.img2 {
+  float: right;
+  margin: 250px 0 auto 10px;
+  opacity: 0.5;
+}
