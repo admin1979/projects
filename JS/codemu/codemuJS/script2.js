@@ -1646,7 +1646,6 @@ console.log(obj);
 let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
 let result = {};
 
-*/
 let obj = {
   a: 1,
   b: 2,
@@ -1663,3 +1662,24 @@ for (let key in obj) {
 console.log(result); // выведет {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
 
 // 58.Практика на циклы с массивами и объектами JavaScriptt
+
+let obj = {
+  employee1: 100,
+  employee2: 200,
+  employee3: 300,
+  employee4: 400,
+  employee5: 500,
+  employee6: 600,
+  employee7: 700,
+};
+let result = {}
+for (let key in obj) {
+  if (key <= 400) {
+    result[key] = obj[key] * 0.2;
+  }
+
+}
+
+console.log(result);
+
+*/
