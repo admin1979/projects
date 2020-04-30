@@ -1,24 +1,53 @@
-/* 79.Введение в свойство float */
-div {
-  width: 700px;
-  border: 1px solid black;
-  text-align: justify;
+/* 91.Размещение флекс элементов в ряд или колонку */
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 900px;
+  height: 500px;
+  border: 1px solid red;
+  margin-left: 150px;
 }
 
-p {
-  margin: 20px;
-  /* padding-left: 30px; */
-
+.child {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+  /* margin: 10px; */
 }
 
-.img1 {
-  float: left;
-  margin: 10px;
-  opacity: 0.5;
+.elem {
+  align-self: center;
 }
 
-.img2 {
-  float: right;
-  margin: 250px 0 auto 10px;
-  opacity: 0.5;
+/* 98.Выравнивание отдельного элемента в flex модели */
+
+/* 99.Порядок flex блоков через CSS */
+
+.parent1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 30px 0 50px 500px;
+}
+
+.chi_da {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+.elem_da {
+  order: -1;
+  border: 1px solid red;
+}
+
+.elem_da2 {
+  order: -1;
+  border: 1px solid blue;
 }

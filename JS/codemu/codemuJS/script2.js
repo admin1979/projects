@@ -1662,7 +1662,6 @@ for (let key in obj) {
 console.log(result); // выведет {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
 
 // 58.Практика на циклы с массивами и объектами JavaScriptt
-*/
 
 let obj = {
   employee1: 100,
@@ -1682,3 +1681,100 @@ for (let key in obj) {
 }
 
 console.log(result);
+
+// 59.Подсчет количества элементов в массиве JavaScript
+let arr = ['a', 'b', 'c', 'a', 'a', 'b'];
+let counter = 0;
+
+for (let elem of arr) {
+  if (elem == 'a') {
+    counter++;
+  }
+}
+
+console.log(counter);
+
+let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
+let counter = 0;
+
+for (let elem of arr) {
+  if (elem == 3 || elem == 2) {
+    counter++;
+  }
+}
+console.log(counter);
+document.write(counter);
+alert(counter);
+
+let arr = ['a', 'b', 'c', 'a', 'a', 'b'];
+let count = {
+  a: 0,
+  b: 0,
+  c: 0
+};
+
+for (let elem of arr) {
+  count[elem]++;
+}
+
+console.log(count); //выведет {a: 3, b: 2, c: 1}
+
+let arr = ['a', 'b', 'c', 'a', 'a', 'b', 'gopa'];
+let count = {};
+for (let elem of arr) {
+  if (count[elem] === undefined) {
+    count[elem] = 1;
+  } else {
+    count[elem]++;
+  }
+}
+console.log(count);
+
+// 60.Получение соседей элементов в массиве JavaScript
+
+let arr = [1, 2, 3, 4, 5];
+
+for (let i = 1; i < arr.length; i++) {
+  console.log(arr[i - 1 + arr[i]]);
+}
+
+// 61.Получение чисел Фибоначчи в JavaScript
+
+let one = 0;
+let two = 1;
+
+for (let i = 1; i <= 10; i++) {
+  let current = one + two;
+
+  one = two;
+  two = current;
+
+  console.log(current);
+}
+
+// 62.Вывод пирамидок на JavaScript
+
+let str = '';
+
+for (let i = 0; i < 5; i++) {
+  str += 'xx';
+  document.write(str + '<br>');
+}
+for (let i = 1; i <= 9; i++) {
+  for (let j = 1; j <= 3; j++) {
+    document.write(i);
+  }
+  document.write('<br>' + '<br>');
+}
+
+for (let i = 1; i <= 9; i++) {
+  for (let j = 1; j <= i; j++) {
+    document.write(i);
+  }
+
+  document.write('<br>');
+}
+
+*/
+
+// 65. Многомерные массивы в JavaScript
