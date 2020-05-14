@@ -300,9 +300,184 @@ for (var i = 0; i < timesToSayHello; i++) {
   console.log("Привет!");
 }
 
-*/
 
 var animals = ["лев", "фламинго", "белый медведь", "удав"];
 for (var i = 0; i < animals.length; i++) {
   console.log("В этом зоопарке есть " + animals[i] + ".");
 }
+
+var name = "Oleg";
+for (var i = 0; i < name.length; i++) {
+  console.log("В моём имени есть буква:" + name[i] + ".");
+}
+
+
+for (var x = 3; x < 10000; x = x * 3) {
+  console.log(x);
+}
+
+let x = 3;
+while (x < 10000) {
+  console.log(x);
+  x = x * 3;
+}
+
+
+let animals = ["Кот", "Рыба", "Лемур", "Комодский варан"];
+for (let i = 0; i < animals.length; i++) {
+  console.log(animals[i] + " - прекрасное животное");
+}
+
+
+
+var randomString = "";
+var alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+console.log(Math.floor(Math.random() * alphabet.length));
+
+
+
+var alphabet = "абвгдеёжзиклмнопрстуфхцчшщъыьэюя";
+var randomString = "";
+var stringLength = 6;
+
+while (randomString.length < stringLength) {
+  randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+}
+
+console.log(randomString);
+
+
+
+let name = prompt("Как вас зовут?");
+console.log("Привет, " + name);
+
+
+let likesCats = confirm("Тебе нравятся кошки?");
+if (likesCats) {
+  console.log("Молодец");
+} else {
+  console.log("Что ж, не проблема. Все равно ты молодец!");
+}
+
+
+var words = ["программа", "макака", "прекрасный", "оладушек"];
+
+var word = words[Math.floor(Math.random() * words.length)];
+console.log(word);
+
+var answerArray = [];
+for (var i = 0; i < word.length; i++) {
+  answerArray[i] = "_";
+}
+var remainingLetters = word.length;
+console.log(remainingLetters);
+
+
+// Создаем массив со словами
+var words = [
+  "программа",
+  "макака",
+  "прекрасный",
+  "оладушек",
+  "сталин",
+  "обама",
+  "путин",
+  "трамп",
+  "горбачёв",
+];
+// Выбираем случайное слово
+var word = words[Math.floor(Math.random() * words.length)];
+// Создаем итоговый массив
+var answerArray = [];
+for (var i = 0; i < word.length; i++) {
+  answerArray[i] = "_";
+}
+var remainingLetters = word.length;
+// Игровой цикл
+while (remainingLetters > 0) {
+  // Показываем состояние игры
+  alert(answerArray.join(" "));
+
+  // Запрашиваем вариант ответа
+  var guess = prompt("Угадайте Букву или нажмите отмена для выхода из игры.");
+  // guess = guess.toLowerCase;
+  if (guess === null) {
+    // Выходим из игрового цикла
+    break;
+  } else if (guess.length !== 1) {
+    alert("Пожалуйста, введите одиночную букву.");
+  } else {
+    // Обновляем состояние игры
+    for (var j = 0; j < word.length; j++) {
+      if (word[j] === guess) {
+        answerArray[j] = guess;
+        remainingLetters--;
+      }
+    }
+  }
+  // Конец игрового цикла
+}
+// Отображаем ответ и поздравляем игрока
+alert(answerArray.join(" "));
+alert("Отлично! Было загадано слово " + word);
+
+//126
+
+var ourFirstFunction = function () {
+  document.write("Привет, функция!");
+};
+ourFirstFunction();
+
+let drawCats = function (howManyTimes) {
+  for (let i = 0; i < howManyTimes; i++) {
+    console.log(i + " =^.^=");
+  }
+};
+drawCats(101);
+
+//130
+
+var fu = function (h, w) {
+  for (var i = 0; i < h; i++) {
+    console.log(i + " " + w);
+  }
+};
+fu(5, "=^.^=");
+
+// 134
+let y = function () {
+  document.write("My " + 2 + 3);
+};
+y(5);
+
+//157
+
+let timeUp = function () {
+  alert("Время не вышло");
+};
+
+setTimeout(timeUp, 5000);
+// timeUp();
+
+
+var doHomeworkAlarm = function () {
+  alert("Эй! Пора делать домашку!");
+};
+var timeoutId = setTimeout(doHomeworkAlarm, 5000);
+clearTimeout(timeoutId);
+
+
+//160
+
+var leftOffset = 0;
+var moveHeading = function () {
+  $("#heading").offset({ left: leftOffset });
+  leftOffset++;
+  if (leftOffset > 200) {
+    leftOffset = 0;
+  }
+};
+setInterval(moveHeading, 30);
+
+*/
+//165
