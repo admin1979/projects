@@ -479,5 +479,57 @@ var moveHeading = function () {
 };
 setInterval(moveHeading, 30);
 
-*/
 //165
+
+// var dog = {
+//   name: "Оладушек",
+//   legs: 4,
+//   isAwesome: true
+// };
+// dog.age = 6;
+// dog.bark = function () {
+//   console.log("Гав-гав! Меня зовут " + this.name + "!");
+// };
+
+var speak = function () {
+  console.log(this.sound + "! Меня зовут " + this.name + "!");
+};
+
+var cat = {
+  sound: "Мяу",
+  name: "Варежка",
+  speak: speak
+};
+
+let tiger = {
+  sound: 'rrrrr',
+  name: 'Sherhan',
+  voise: speak
+};
+
+// console.log(dog.name);
+// console.log(dog);
+// dog.bark();
+
+cat.speak();
+tiger.voise();
+
+
+
+
+var pig = {
+  sound: "Хрю",
+  name: "Чарли",
+  speak: speak
+};
+var horse = {
+  sound: "И-го-го",
+  name: "Мэри",
+  speak: speak
+};
+pig.speak();
+
+horse.speak();
+
+*/
+var car = new Car(100, 200);

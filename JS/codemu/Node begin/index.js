@@ -46,7 +46,12 @@
 //     console.log('секунд');
 // }, 1000);
 
-let i = 1;
-setInterval(function () {
-    console.log(i++);
-}, 1000);
+// let i = 1;
+// setInterval(function () {
+//     console.log(i++);
+// }, 1000);
+
+let math = require('./math');
+console.log(math.square1(2));
+console.log(math.cube1(2));
+console.log(math.chetvertayaStepen1(230));
