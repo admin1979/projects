@@ -1,5 +1,7 @@
 'use strict';
 
+//16.Убираем фавикон на NodeJS 
+
 let http = require('http');
 
 console.log('start');

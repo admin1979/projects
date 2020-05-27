@@ -3,6 +3,7 @@
 let fs = require("fs");
 
 //Создание, удаление и чтение папок на NodeJS
+
 /* fs.mkdir('folder777/test', err => {
     if (err) throw err;
 });

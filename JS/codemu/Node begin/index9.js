@@ -1,6 +1,7 @@
 'use strict'
 
 let fs = require('fs');
+//9.Очистка файла
 
 /* fs.truncate('readme.txt', 1, err => {
     if (err) throw err;

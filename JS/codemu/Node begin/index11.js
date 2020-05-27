@@ -1,6 +1,8 @@
 'use strict';
 
 let fs = require('fs');
+
+//11.Работа с объектом Stats на NodeJS
 /*
 fs.stat('readme.txt', (err, stats) => {
     if (err) throw err;

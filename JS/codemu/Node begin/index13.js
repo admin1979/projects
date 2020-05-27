@@ -2,6 +2,8 @@
 
 let fs = require('fs');
 
+//13.Рекурсивный обход файлов папки на NodeJS
+
 /* getAllFiles('testfolder');
 
 function getAllFiles(folderName) {

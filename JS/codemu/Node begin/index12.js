@@ -2,6 +2,8 @@
 
 let fs = require('fs');
 
+//12.Отделяем файлы от папок на NodeJS
+
 let folderName = 'folder777';
 
 fs.readdir(folderName, (err, files) => {
