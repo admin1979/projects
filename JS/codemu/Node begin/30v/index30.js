@@ -38,22 +38,39 @@ function getPage(name, res, statusCode = 200) {
     name = "index";
   }
 
-  fs.readFile("pages/" + name + ".html", "utf-8", (err, data) => {
+
+
+
+  fs.readFile("pages/" + name + ".html", "utf-8", (err, content) => {
     if (!err) {
-      fs.readFile("elems/menu.html", "utf-8", (err, menu) => {
+
+      fs.readFile("layouts/default.html", "utf-8", (err, layout) => {
         if (err) throw err;
 
-        data = data.replace(/\{\{menu\}\}/g, menu);
+        layout = layout.replace(/\{\{get content\}\}/g, content);
 
-        fs.readFile("elems/footer.html", "utf-8", (err, footer) => {
+        let title = content.match(/\{\{set title "(.*?)"\}\}/);
+        if (title) {
+          layout = layout.replace(/\{\{get title\}\}/g, title[1]);
+
+          layout = layout.replace(/\{\{set title ".*?"\}\}/, '');
+        }
+
+        fs.readFile("elems/menu.html", "utf-8", (err, menu) => {
           if (err) throw err;
 
-          data = data.replace(/\{\{footer\}\}/g, footer);
+          layout = layout.replace(/\{\{get menu\}\}/g, menu);
 
-          res.setHeader("Content-Type", "text/html");
-          res.statusCode = statusCode;
-          res.write(data);
-          res.end();
+          fs.readFile('elems/footer.html', 'utf-8', (err, footer) => {
+            if (err) throw err;
+
+            layout = layout.replace(/\{\{get footer\}\}/g, footer);
+
+            res.setHeader("Content-Type", "text/html");
+            res.statusCode = statusCode;
+            res.write(layout);
+            res.end();
+          });
         });
       });
     } else {
@@ -65,3 +82,5 @@ function getPage(name, res, statusCode = 200) {
     }
   });
 }
+
+//27.Статичные файлы (эта версия работает уже)

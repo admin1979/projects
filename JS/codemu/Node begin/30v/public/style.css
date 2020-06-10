@@ -1,0 +1,46 @@
+/* меню */
+
+/* a {
+    color: darkgreen;
+    text-decoration: none;
+    font: bold 16px Arial;
+} */
+
+img {
+    width: 400px;
+    height: 255px;
+
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    /* border: 1px solid green; */
+    align-items: center;
+    background-color: olive;
+
+}
+
+nav .child {
+    margin: 20px;
+
+}
+
+.child a {
+    color: black;
+    text-decoration: none;
+    font: bold 16px Arial;
+}
+
+/* футер */
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+}
