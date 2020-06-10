@@ -1855,6 +1855,161 @@ for (let i = 0; i < arr.length; i++) {
     console.log(arr[i][j]);
   }
 }
-*/
 
 // 67.Заполнение многомерных массивов JavaScript
+
+//78. Математические методы.
+
+console.log(Math.pow(3, 4));
+console.log(Math.pow(2, -5));
+document.write(Math.sqrt(4));
+
+
+
+console.log(Math.pow(2, 10));
+
+console.log(Math.sqrt(245));
+
+let arr = [4, 2, 5, 19, 13, 0, 10];
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i]; //получение суммы элементов массива через цикл
+}
+console.log(sum);
+
+var arr = [3, 2, 5, 6];
+function arraySum(array) {
+  var sum = 0;
+  for (var i = 0; i < array.length; i++) {
+    sum += array[i];
+  }
+  console.log(sum);
+}
+arraySum(arr);
+
+
+// Задача 3
+
+// Дан массив с элементами 4, 2, 5, 19, 13, 0, 10. Найдите квадратный корень из суммы кубов его элементов. Для решения воспользуйтесь циклом for.
+
+let arr = [4, 2, 5, 19, 13, 0, 10];
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+  sum += Math.pow(arr[i], 3); //получение суммы элементов массива через цикл
+}
+console.log(Math.sqrt(sum));
+
+
+console.log(Math.round(6.4));
+console.log(Math.ceil(6.4));
+
+let num = 1.1111;
+console.log(num.toFixed(2));
+
+let num = 678.19324;
+console.log(num.toPrecision(4));
+let num = Math.sqrt(379);
+
+console.log(Math.round(num));
+console.log(num.toFixed(2));
+console.log(num.toFixed(1));
+
+//Задача 5
+
+//Найдите квадратный корень из 587. Округлите результат в большую и меньшую стороны, запишите результаты округления в объект с ключами 'floor' и 'ceil'.
+
+let num1 = Math.sqrt(587);
+let obj = {};
+// console.log(Math.ceil(num1));
+// console.log(Math.floor(num1));
+
+obj["ceil"] = Math.ceil(num1);
+obj["floor"] = Math.floor(num1);
+
+console.log(obj);
+
+//Тоже самое с помощью цикла.
+let num1 = Math.sqrt(587);
+
+let keys = ["ceil", "floor"];
+let values = [Math.ceil(num1), Math.floor(num1)];
+let obj = {};
+
+for (let i = 0; i <= 1; i++) {
+  let key = keys[i];
+  let value = values[i];
+
+  obj[key] = value;
+}
+
+console.log(obj);
+
+//Нахождение максимального и минимального числа
+
+
+console.log(Math.max(4, -2, 5, 19, -130, 0, 10));
+console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+
+let arr = [1, 5, 10, 34, 100];
+let max = Math.max.apply(null, arr);
+
+console.log(max);
+
+//Метод Math.random
+
+document.write(Math.random());
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(getRandomInt(10, 100));
+
+// Задача 7
+
+// Выведите на экран случайное целое число от 1 до 100.
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(getRandomInt(1, 100));
+
+
+
+// Задача 8
+
+// Заполните массив 10-ю случайными целыми числами. (Подсказка: нужно воспользоваться циклами for или while).
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// console.log(getRandomInt(1, 10));
+
+let arr = [];
+
+for (let i = 0; i <= 4; i++) {
+  arr[i] = getRandomInt(1, 10);
+}
+
+console.log(arr);
+
+// Метод Math.abs
+
+console.log(Math.abs(-3));
+
+// Задача 9
+
+// Даны переменные a и b. Найдите найдите модуль разности a и b. Проверьте работу скрипта самостоятельно для различных a и b.
+*/
+
+let a = 10;
+let b = 20;
+let m = a - b;
+
+console.log(m);
+
+console.log(Math.abs(m));
+
+//79.Строковые методы JavaScript
+//Работа с регистром символов
