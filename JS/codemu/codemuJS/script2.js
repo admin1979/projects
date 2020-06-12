@@ -2001,7 +2001,6 @@ console.log(Math.abs(-3));
 // Задача 9
 
 // Даны переменные a и b. Найдите найдите модуль разности a и b. Проверьте работу скрипта самостоятельно для различных a и b.
-*/
 
 let a = 10;
 let b = 20;
@@ -2013,3 +2012,354 @@ console.log(Math.abs(m));
 
 //79.Строковые методы JavaScript
 //Работа с регистром символов
+
+let str = 'js';
+console.log(str.toUpperCase());
+
+let str1 = 'JS';
+console.log(str.toLowerCase());
+
+
+let str = 'abcde';
+let sub = str.substr(0, 3);
+
+console.log(sub);
+
+
+let str = 'abcde';
+let sub = str.substr(2);
+
+console.log(sub);
+
+let str = 'я учу javascript!';
+console.log(str.slice(2, 5));
+
+//Работа с indexOf
+
+let str = 'Я учу учу Javascript';
+console.log(str.indexOf('учу', 3));
+
+let str2 = 'Б..Б..Б';
+console.log(str2.lastIndexOf('Б'));
+
+let str3 = 'abcde';
+console.log(str3.indexOf('c'));
+
+
+let str4 = 'dsdafge';
+//console.log(str4.lastIndexOf('a'));
+if (str4.lastIndexOf('a') == -1) {
+  alert("Нет буквы а");
+} else {
+  console.log('есть а');
+}
+
+
+let str4 = 'adsdafge';
+//console.log(str4.lastIndexOf('a'));
+if (str4.lastIndexOf('a', 0) == -1) {
+  alert("Нет буквы а");
+} else {
+  console.log('есть а');
+}
+
+
+//Работа с startsWith, endsWith
+
+let str = 'http://ya.ru/';
+if (str.startsWith('http://')) {
+  alert('да начинается');
+} else {
+  console.log('нет не начинается');
+}
+
+
+let str = 'http://ya.html';
+if (str.endsWith('html')) {
+  alert('да заканчивается');
+} else {
+  console.log('нет не заканчивается');
+}
+
+
+let str = 'html-css-javascript';
+let arr = str.split('-');
+
+console.log(arr);
+
+
+let str = 'html-css-javascript';
+let arr = str.split('-', 2);
+
+console.log(arr);
+
+
+let str = 'abcde';
+let arr = str.split('');
+
+console.log(arr);
+
+
+let str = 'abcde';
+let arr = str.split('', 3);
+
+console.log(arr);
+
+
+let str = '123456789';
+let arr1 = str.split('');
+let arr2 = arr1.reverse();
+let result = arr2.join('');
+
+console.log(result);
+
+
+let str = '123456789';
+
+let result = str.split('').reverse().join('');
+console.log(result);
+
+
+let str = '12345';
+let arr = str.split('');
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  sum += Number(arr[i]);
+}
+
+console.log(sum);
+
+
+let num = 12345;
+let str = String(num);
+let arr = str.split('');
+
+console.log(arr);
+
+//Задача 15 
+
+//Дан следующий массив:
+
+let arr = [1, 2, 3, 4, 5];
+let result = arr.join('-');
+
+console.log(result);
+
+//80.Методы для массивов в JavaScript. Работа с push, unshift
+
+let arr = [1, 2, 3];
+arr.push(4, 5, 6);
+console.log(arr);
+
+let arr1 = [1, 2, 3];
+arr1.unshift(4, 5, 6);
+console.log(arr1);
+
+
+let arr = [];
+
+for (let i = 1; i <= 109; i++) {
+  arr.push(i)
+}
+
+console.log(arr);
+
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+
+arr.shift();
+console.log(arr);
+
+
+
+let arr = ['1', '2', '3', '4', '5', '6'];
+let result = [];
+
+while (arr.length > 0) { // массив уменьшается в цикле пока не достигнет нуля
+  let first = arr.shift();
+  let last = arr.pop();
+
+  let str = first + last; // тут будет строка '16', потом '25', потом '34'
+  result.push(str);
+}
+
+// После цикла в result лежит массив ['16', '25', '34']. Сольем его в строку:
+result = result.join('-');
+console.log(result);
+
+
+let arr5 = ["js", "css", "jq"];
+console.log(arr5.shift());
+
+let arr6 = ["js", "css", "jq"];
+console.log(arr6.pop());
+
+//Работа с slice
+
+let arr7 = [1, 2, 3, 4, 5];
+arr7 = arr7.slice(1, 3);
+console.log(arr7);
+
+let a = [1, 2, 3, 4, 5];
+let b = a.slice(3, 6);
+console.log(b);
+
+let a = [1, 2, 3, 4, 5];
+let b = a.splice(1, 3);
+console.log(b);
+
+let a = [1, 2, 3, 4, 5];
+let b = a.splice(0, 3, "a", "b", "c");
+console.log(b);
+
+let arr = ["a", "b", "c", "d", "e"];
+
+arr.splice(2, 1, "1", "2", "3");
+console.log(arr);
+
+
+let a = [1, 2, 3, 4, 5];
+console.log(a.indexOf(2));
+
+//81.Практика на использования изученных методов
+
+let str = "london";
+
+let result = str.slice(0, 1).toUpperCase() + str.slice(1);
+console.log(result); // выведет 'London'
+
+let str = "london";
+
+let result = str.slice(5, 6).toUpperCase() + str.slice(0 - 4);
+console.log(result); //куйня какаято вышла
+
+//82.Основы работы с пользовательскими функциями в JavaScript
+
+function fu() {
+  alert("!!!!!!!");
+}
+fu();
+fu();
+fu();
+fu();
+
+
+
+function name() {
+  alert("Пушкин");
+}
+name();
+
+function summa() {
+  let sum = 0;
+
+  for (let i = 0; i <= 100; i++) {
+    sum += i;
+    console.log(sum);
+  }
+}
+summa();
+
+//83.Параметры функций в JavaScript
+
+function func(num) {
+  console.log(Math.pow(num, 3));
+}
+// func(2);
+func(2);
+
+
+function f(num) {
+  if (num < 0) {
+    console.log("число отрицательное ---");
+  } else {
+    console.log("число положительное +++");
+  }
+}
+f(3);
+
+
+function func1(num1, num2) {
+  console.log(num1 * num2);
+}
+
+func1(3, 2);
+
+function func1(num1, num2, num3) {
+  console.log(num1 + num2 + num3);
+}
+
+func1(3, 2, 4);
+
+
+function func(num) {
+  alert(num * num);
+}
+
+func(2);
+
+function func(num) {
+  alert(num * num);
+}
+
+let param = 3;
+func(param);
+
+function func(num1, num2, num3) {
+  console.log(num1 + num2 + num3);
+}
+let param1 = 1;
+let param2 = 2;
+let param3 = 3;
+
+func(param1, param2, param3);
+
+function func(name) {
+  alert("ваше имя: " + name);
+}
+
+func("Вася");
+
+function func(name = "Аноним") {
+  console.log("ваше имя: " + name);
+}
+func();
+func("Василий Задов");
+
+function func(num = 5) {
+  console.log(num * num);
+}
+
+func(2);
+func(3);
+func();
+
+function func(num1 = 0, num2 = 0) {
+  console.log(num1 + num2);
+}
+func(2, 3);
+func(3);
+func();
+
+function func(num) {
+  return num * num;
+}
+
+let result = func(2);
+console.log(result);
+
+function func(num) {
+  return Math.pow(num, 3);
+}
+console.log(func(3));
+*/
+
+function func(num) {
+  return num * num;
+}
+
+let result = func(2) + func(3);
+alert(result); // выведет 13
+
+//Инструкция return в JavaScript
