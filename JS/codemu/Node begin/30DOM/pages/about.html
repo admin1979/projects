@@ -1,0 +1,30 @@
+{{set title "Page About"}}
+
+<b>Page About</b>
+
+<input class="elem">
+<input class="elem">
+
+<input id="button" type="submit">
+
+<input id="button11" type="submit">
+
+<script>
+    let elem = document.querySelector('.elem');
+    console.log(elem); // здесь будет первый инпут
+
+    let button = document.querySelector('#button');
+    button.addEventListener('click', function () {
+        alert('!!!');
+    });
+
+    let b11 = document.querySelector('#button11');
+    b11.addEventListener('click', func);
+
+    function func() {
+        alert('по клику на кнопку выполнилась наша функция func');
+    }
+</script>
+<!--155. Другие типы событий в JavaScript -->
+<!-- 156.Именованные обработчики событий в JavaScript -->
+<!-- 158.Несколько обработчиков одного события в JavaScript -->

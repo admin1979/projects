@@ -2353,7 +2353,6 @@ function func(num) {
   return Math.pow(num, 3);
 }
 console.log(func(3));
-*/
 
 function func(num) {
   return num * num;
@@ -2363,3 +2362,334 @@ let result = func(2) + func(3);
 alert(result); // выведет 13
 
 //Инструкция return в JavaScript
+
+function func(num) {
+  return num * num;
+}
+
+let result = func(3); // в переменной result теперь 9
+console.log(result);
+
+
+function func(num) {
+  return num * num;
+}
+
+let result = func(3);
+result = result + 1;
+alert(result); // выведет 10
+
+function func(num) {
+  return num * num;
+}
+
+alert(func(3)); // выведет 9
+
+
+//Функции в функциях
+
+//Тонкое место return
+
+function func(num) {
+  if (num >= 0) {
+    return '+';
+  } else {
+    return '-';
+  }
+}
+
+console.log(func(3)); // выведет '+'
+console.log(func(-3)); // выведет '-'
+
+function func(num) {
+  return num;
+
+  let result = num * num;
+  return result;
+}
+
+console.log(func(3));
+
+
+function func(num) {
+  if (num <= 0) {
+    return Math.abs(num);
+  } else {
+    return num * num;
+  }
+}
+
+console.log(func(10));
+console.log(func(-5));
+
+function func(num) {
+  if (num <= 0) {
+    return Math.abs(num);
+  }
+
+  return num * num;
+}
+
+console.log(func(10));
+console.log(func(-5));
+
+
+function func() {
+  let sum = 0;
+
+  for (let i = 1; i <= 5; i++) {
+    sum += i;
+    return (sum);
+  }
+
+  return sum;
+}
+
+let result = func();
+console.log(result); // выведет 15
+
+
+function func(num) {
+  let sum = 0;
+
+  for (let i = 1; i <= num; i++) {
+    sum += i;
+
+  }
+  return sum;
+}
+
+console.log(func(5));
+
+//Применение return в цикле
+
+function func(arr) {
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+
+    // Если сумма больше или равна 10:
+    if (sum >= 10) {
+      return i + 1; // выходим из цикла и из функции
+    }
+  }
+}
+
+let result = func([1, 2, 3, 4, 5]);
+console.log(result);
+
+//Приемы работы с return
+
+function func(num) {
+  let result;
+
+  if (num >= 0) {
+    result = Math.sqrt(num);
+  } else {
+    result = 0;
+  }
+
+  return result;
+}
+
+console.log(func(3));
+
+
+function func(num) {
+  if (num >= 0) {
+    return Math.sqrt(num);
+  } else {
+    return 0;
+  }
+}
+
+console.log(func(2));
+
+
+function func(num1, num2) {
+  let result;
+
+  if (num1 > 0 && num2 > 0) {
+    return num1 * num2;
+  } else {
+    return num1 - num2;
+  }
+}
+
+console.log(func(-1, -3));
+
+
+//85.Примеры на создание функций в JavaScript
+
+let arr = [1, 2, 3, 4];
+
+// Код, находящий сумму:
+let sum = 0;
+
+for (let elem of arr) {
+  sum += elem;
+}
+
+alert(sum);
+
+
+
+function getSum(arr) {
+  let sum = 0;
+
+  for (let elem of arr) {
+    sum += elem;
+  }
+
+  return sum;
+}
+
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7, 8];
+console.log(getSum(arr1));
+console.log(getSum(arr2));
+
+
+function getSum(arr) {
+  let sum = 0;
+
+  for (let elem of arr) {
+    sum += elem * elem;
+  }
+
+  return sum;
+}
+
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7, 8];
+console.log(getSum(arr1));
+console.log(getSum(arr2));
+
+//Задача 2 
+
+//Сделайте функцию getDigitsSum (digit - это цифра), которая параметром будет принимать целое число и возвращать сумму его цифр.
+
+function gitDigitsSum(num) {
+  return num.toString().split('');
+
+}
+
+console.log(gitDigitsSum(12345));
+
+let sum = 0;
+for (let elem of gitDigitsSum(12345)) {
+  sum += elem;
+}
+
+console.log();   //  Всё не так
+
+
+function getDigitsSum(num) {
+  let sum = 0;
+  let str = String(num);
+  for (let i = 0; i < str.length; i++) sum += Number(str[i]);
+  return sum;
+}
+let num = +prompt("Введите число");
+console.log(getDigitsSum(num));
+
+// Задача 3
+
+// Реализуйте функцию getDivisors, которая параметром будет принимать число и возвращать массив его делителей, то есть чисел, на которое делится наше число. К примеру, если мы передадим число 24 - мы должны получить массив [1, 2, 3, 4, 6, 12, 24].
+
+//86.Флаги в функциях JavaScript
+
+let num = 31;
+
+let flag = true;
+for (let i = 2; i < num; i++) {
+  if (num % i == 0) {
+    flag = false;
+    break;
+  }
+}
+
+console.log(flag);
+
+
+function isPrime(num) {
+  let flag = true;
+  for (let i = 2; i < num; i++) {
+    if (num % i == 0) {
+      flag = false;
+      break;
+    }
+  }
+
+  return flag;
+}
+
+console.log(isPrime(10));
+console.log(isPrime(31));
+
+
+function isPrime(num) {
+  for (let i = 2; i < num; i++) {
+    if (num % i == 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+console.log(isPrime(10));
+console.log(isPrime(31));
+
+//87.Логические операторы без if в функциях JavaScript
+function func(a, b) {
+  return a > b;
+}
+
+console.log(func(1, 2));
+
+function func(a, b) {
+  return a == b;
+}
+
+console.log(func(2, 2));
+
+function func(a, b) {
+  return a != b;
+}
+
+console.log(func(1, 2));
+
+
+function func(a, b) {
+  return a + b >= 10;
+}
+
+console.log(func(9, 2));
+
+*/
+
+//88.Правильное использование функций JavaScript
+
+let result = [];
+let arr = [1524, 1321, 4563, 7144, 2879];
+
+for (let elem of arr) {
+  if (checkDigitsPairsSum(elem)) {
+    result.push(elem);
+  }
+}
+
+console.log(result);
+
+function checkDigitsPairsSum(num) {
+  let str = String(num);
+  let sum1 = Number(str[0]) + Number(str[1]);
+  let sum2 = Number(str[2]) + Number(str[3]);
+
+  return sum1 == sum2;
+}
+console.log(checkDigitsPairsSum(10));
+
+// Перерыв

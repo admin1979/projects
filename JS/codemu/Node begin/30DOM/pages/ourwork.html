@@ -1,0 +1,123 @@
+{{set title "Page Ourwork"}}
+
+<b>Page Ourwork</b>
+<div id="parent">
+    <input>
+</div>
+
+<div id="block">
+    <p>1</p>
+    <p>2</p>
+</div>
+
+<div class="block">
+    <p>a</p>
+    <p>b</p>
+</div>
+
+<p class="www">text</p>
+<p class="www">text</p>
+
+<input id="button1" type="submit">
+<input id="button2" type="submit">
+<input id="button3" type="submit">
+<input id="button4" type="submit">
+<input id="button5" type="submit">
+<input id="button6" type="submit">
+<input id="button7" type="submit">
+
+<input id="button8" type="submit" value="button8">
+<input id="button9" type="submit" value="button9">
+
+<p id="e1">text</p>
+<p id="e2">text</p>
+<p id="e3">text</p>
+<p id="e4">text</p>
+<p id="e5">text</p>
+
+
+
+<script>
+    let elem = document.querySelector('#parent input');
+    console.log(elem);
+
+    let elem1 = document.querySelector('#block p')
+    console.log(elem1);
+
+    let elem2 = document.querySelector('.block p')
+    console.log(elem2);
+
+    let elem3 = document.querySelector('.www')
+    console.log(elem3);
+
+    let b1 = document.querySelector('#button1')
+    b1.addEventListener('click', function () {
+        alert('1 Привет ');
+    });
+    let b2 = document.querySelector('#button2')
+    b2.addEventListener('click', function () {
+        alert('2 Привет ');
+    });
+    let b3 = document.querySelector('#button3')
+    b3.addEventListener('click', function () {
+        alert('3 Привет ');
+    });
+
+
+    let b4 = document.querySelector('#button4')
+    b4.addEventListener('dblclick', function () {
+        alert('Привет Мир');
+    });
+    let b5 = document.querySelector('#button5')
+    b5.addEventListener('mouseover', function () {
+        alert('Привет Мир');
+    });
+    let b6 = document.querySelector('#button6')
+    b6.addEventListener('mouseout', function () {
+        alert('Привет Мир');
+
+
+    });
+    let b7 = document.querySelector('#button7')
+    b7.addEventListener('click', function () {
+        alert('Привет Мир');
+    });
+    b7.addEventListener('mouseover', function () {
+        alert('Мышь наведена');
+    });
+    b7.addEventListener('mouseout', function () {
+        alert('Мышь уведена');
+    });
+
+    let b8 = document.querySelector('#button8')
+    b8.addEventListener('click', func1);
+
+    let b9 = document.querySelector('#button9')
+    b9.addEventListener('click', func2);
+
+    function func1() {
+        alert(1);
+    }
+
+    function func2() {
+        alert(2);
+    }
+
+    let e1 = document.querySelector('#e1')
+    let e2 = document.querySelector('#e2')
+    let e3 = document.querySelector('#e3')
+    let e4 = document.querySelector('#e4')
+    let e5 = document.querySelector('#e5')
+
+    e1.addEventListener('click', funcy);
+    e2.addEventListener('click', funcy);
+    e3.addEventListener('click', funcy);
+    e4.addEventListener('click', funcy);
+    e5.addEventListener('click', funcy);
+
+
+
+    function funcy() {
+        alert('message');
+    }
+</script>
