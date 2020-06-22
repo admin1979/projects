@@ -29,6 +29,12 @@
 <input id="button8" type="submit" value="button8">
 <input id="button9" type="submit" value="button9">
 
+<input id="button12" type="submit" value="button12">
+
+
+<p id="elem13">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quam deleniti aliquam error, laboriosam,
+    sequi cum ex consectetur ipsum recusandae aliquid ducimus, earum distinctio ab. Commodi esse id deserunt quasi.</p>
+
 <p id="e1">text</p>
 <p id="e2">text</p>
 <p id="e3">text</p>
@@ -120,4 +126,39 @@
     function funcy() {
         alert('message');
     }
+
+
+    let elem13 = document.querySelector('#elem13');
+    elem13.addEventListener('click', func6);
+    elem13.addEventListener('click', func7);
+    elem13.addEventListener('click', func8);
+
+
+    function func6() {
+        alert('1-я функция');
+    }
+
+    function func7() {
+        alert('2-я функция');
+    }
+
+    function func8() {
+        alert('3-я функция');
+    }
+
+
+    let button12 = document.querySelector('#button12')
+    button12.addEventListener('dblclick', function () {
+        alert('1 Привет Мир');
+    });
+
+
+    button12.addEventListener('dblclick', function () {
+        alert('2 Привет Мир');
+    });
+
+
+    button12.addEventListener('dblclick', function () {
+        alert('3 Привет Мир');
+    });
 </script>

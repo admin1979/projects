@@ -9,6 +9,9 @@
 
 <input id="button11" type="submit">
 
+<input id="button10" type="submit" value="button10">
+
+
 <script>
     let elem = document.querySelector('.elem');
     console.log(elem); // здесь будет первый инпут
@@ -24,7 +27,19 @@
     function func() {
         alert('по клику на кнопку выполнилась наша функция func');
     }
+
+    function fu1() {
+        alert('1');
+    }
+
+    function fu2() {
+        alert('2');
+    }
+    let button10 = document.querySelector('#button10');
+    button10.addEventListener('click', fu1);
+    button10.addEventListener('click', fu2);
 </script>
 <!--155. Другие типы событий в JavaScript -->
 <!-- 156.Именованные обработчики событий в JavaScript -->
 <!-- 158.Несколько обработчиков одного события в JavaScript -->
+<!-- 159.Работа с текстом тега на JavaScript в папке codemuJS -->
