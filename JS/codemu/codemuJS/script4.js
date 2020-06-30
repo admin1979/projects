@@ -280,7 +280,6 @@ let elems = document.querySelectorAll("#elems");
 for (let elem of elems) {
   elem.addEventListener("blur", func);
 }
-*/
 
 function func() {
   this.innerHTML **= 2;
@@ -291,3 +290,33 @@ let elems = document.querySelectorAll(".www");
 for (let elem of elems) {
   elem.addEventListener("click", func);
 }
+
+let divs = document.querySelectorAll('div');
+
+for (let div of divs) {
+  div.addEventListener('click', function () {
+    this.innerHTML++;
+  });
+}
+
+
+//168.Отвязывание событий через removeEventListener
+let button = document.querySelector('#button');
+button.addEventListener('click', func);
+
+function func() {
+  alert('!!!');
+  this.removeEventListener('click', func);
+}
+
+*/
+
+let a = document.querySelector('a');
+a.addEventListener('click', func);
+
+function func() {
+  this.innerHTML += '(' + a.href + ')';
+  this.removeEventListener('click', func)
+} //куйня какая-то
+// 168-172 не смотрел
+// 173 в script5.js 

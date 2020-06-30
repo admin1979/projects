@@ -1,22 +1,27 @@
 let express = require("express");
 let app = express();
 app.use(express.static("public"));
-
-app.get("/", function (req, res) {
-  console.log("load  загружен из статитки");
-  res.render("index.html");
-});
-
-app.get("/my", function (req, res) {
-  console.log("my");
-  res.send("Привет мир!");
-});
-
-app.get("/my1", function (req, res) {
-  console.log("my1");
-  res.send("Привет Node!");
-});
+app.set("view engine", "pug");
 
 app.listen(3000, function () {
   console.log("Example app listening on port 3000!");
+});
+
+// app.get("/", function (req, res) {
+//   res.render('main');
+// });
+
+let qwe = 15;
+
+app.get('/', function (req, res) {
+  res.render('main', {
+    title: 'Hey',
+    message: 'Hello there!',
+    sum: 2 + 8,
+    asd: qwe
+  });
+});
+
+app.get("/cat", function (req, res) {
+  res.render("cat");
 });
