@@ -25,3 +25,5 @@ app.get('/', function (req, res) {
 app.get("/cat", function (req, res) {
   res.render("cat");
 });
+
+// Следующее по порядку видео => 8. УСТАНОВКА И НАСТРОЙКА БАЗЫ ДАННЫХ MYSQL. ОСНОВЫ РАБОТЫ С MYSQL WORKBENCH. СОЗДАЕМ И ЗАПОЛНЯЕМ ТАБЛИЦУ ТОВАРОВ И КАТЕГОРИЙ
