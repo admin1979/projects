@@ -134,7 +134,6 @@ input.disabled = true;
 let elem = document.querySelector("#elem");
 console.log(elem.checked);
 
-*/
 
 let elem = document.querySelector("#elem");
 let button1 = document.querySelector("#button1");
@@ -149,3 +148,78 @@ button2.addEventListener("click", function () {
 });
 
 // 183.Чередование атрибутов без значений
+
+
+let elem = document.querySelector('#elem');
+let button = document.querySelector('#button');
+
+button.addEventListener('click', function () {
+  if (elem.disabled) {
+    elem.disabled = false;
+  } else {
+    elem.disabled = true;
+  }
+});
+
+
+
+let elem = document.querySelector('#elem');
+let button1 = document.querySelector('#button1');
+
+button1.addEventListener('click', function () {
+  if (elem.disabled) {
+    elem.disabled = false;
+  } else {
+    elem.disabled = true;
+  }
+});
+
+//184.Работа с радиокнопками в JavaScript
+
+let elems = document.querySelectorAll('input[type="radio"]');
+let button = document.querySelector('button');
+let p = document.querySelector('p');
+
+button.addEventListener('click', function () {
+
+  for (var elem of elems) {
+    elem.checked ? p.innerHTML = elem.value : 0;
+  }
+});
+
+//185.Событие change в JavaScript
+
+let elem = document.querySelector('#elem');
+let p = document.querySelector('p');
+
+elem.addEventListener('change', function () {
+  // console.log(this.value);
+  p.innerHTML = elem.value;
+});
+
+let elem = document.querySelector('#elem');
+
+elem.addEventListener('change', function () {
+  elem.value.length < 5 ? elem.style.background = 'green' : elem.style.background = 'red';
+});
+
+
+//186.Событие input
+let elem = document.querySelector('#elem');
+
+elem.addEventListener('input', function () {
+  console.log(this.value);
+});
+
+*/
+
+//187.Методы focus и blur в JavaScript
+
+let elem = document.querySelector('#elem');
+let button = document.querySelector('#button');
+
+button.addEventListener('click', function () {
+  elem.focus();
+});
+
+// 188.Работа с выпадающими списками в JavaScript
