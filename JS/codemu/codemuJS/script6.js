@@ -211,7 +211,6 @@ elem.addEventListener('input', function () {
   console.log(this.value);
 });
 
-*/
 
 //187.Методы focus и blur в JavaScript
 
@@ -223,3 +222,56 @@ button.addEventListener('click', function () {
 });
 
 // 188.Работа с выпадающими списками в JavaScript
+
+let select = document.querySelector('#select');
+let p = document.querySelector('p');
+let button = document.querySelector('#button');
+
+button.addEventListener('click', function () {
+  p.innerHTML = select.value;
+});
+
+
+let select = document.querySelector('#select');
+let button = document.querySelector('button');
+let p = document.querySelector('p');
+
+button.addEventListener('click', function () {
+  let year = select.value;
+  let dayCurrent = new Date(year, 1, 29).getDate();
+  let dayCheck = new Date(year, 2, 1).getDate();
+
+  dayCurrent == dayCheck ? console.log('Невысокосный') : console.log('Високосный');
+});
+
+
+select.addEventListener('change', function () {
+  console.log(this.value);
+});
+
+
+let select = document.querySelector('#select');
+
+select.addEventListener('change', function () {
+  // let day = this.value;
+  // day > 5 ? console.log('Выходной') : console.log('Рабочий');
+  if (this.value > 5) {
+    console.log('Выходной');
+  } else {
+    console.log('Рабочий');
+  }
+});
+
+// 190.Номер выбранного пункта выпадающего списка
+
+*/
+
+let select = document.querySelector('#select');
+// console.log(select.selectedIndex); // выведет 1
+let option = select[0];
+
+console.log(option.text);
+console.log(option.value);
+console.log(option.selected);
+
+//193.Пользовательские атрибуты в JavaScript
