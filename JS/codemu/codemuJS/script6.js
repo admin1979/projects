@@ -274,4 +274,4 @@ console.log(option.text);
 console.log(option.value);
 console.log(option.selected);
 
-//193.Пользовательские атрибуты в JavaScript
+//193.Пользовательские атрибуты в JavaScript Далее в script7

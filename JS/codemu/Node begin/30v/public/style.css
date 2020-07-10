@@ -43,4 +43,13 @@ nav .child {
 
 .footer {
     display: flex;
+    height: 200px;
+    /* border: 1px solid green; */
+    align-items: center;
+    background-color: olive;
+
+}
+
+footer .box {
+    margin: 30px;
 }
