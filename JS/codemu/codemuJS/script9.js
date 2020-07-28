@@ -149,7 +149,6 @@ setInterval(func, 1000, "a", "b");
 function func(str1, str2) {
   document.write(str1, str2); // каждую секунду будет вводить 'a','b'
 }
-*/
 
 let elem = document.querySelector("#elem");
 
@@ -163,3 +162,21 @@ elem.addEventListener("click", function () {
 });
 
 // 218.Практика на таймеры и работу с DOM в JavaScript
+
+let start = document.querySelector("#start");
+let paragraph = document.querySelector("p");
+
+start.addEventListener("click", function () {
+  setInterval(() => paragraph.innerHTML--, 1000);
+});
+
+*/
+// 219.Функция setTimeout в JavaScript
+
+let elem = document.querySelector("#elem");
+let parag = document.querySelector("p");
+elem.addEventListener("click", function () {
+  setTimeout(function () {
+    parag.innerHTML += "привет";
+  }, 2000);
+});

@@ -1,16 +1,8 @@
 // Глава2. Основы работы с Node.js
-// Модули
-/* const os = require("os");
-const greeting = require("./greeting");
-
-// получим имя текущего пользователя
-let userName = os.userInfo().username;
+// Работа с модулями
 
 
-console.log(`Дата запроса: ${greeting.date}`);
-console.log(greeting.getMessage(userName)); */
+const welcome = require("./welcome");
 
-const User = require("./user.js");
-
-let eugene = new User("Eugene", 32);
-eugene.sayHi();
+welcome.getMorningMessage();
+welcome.getEveningMessage();
