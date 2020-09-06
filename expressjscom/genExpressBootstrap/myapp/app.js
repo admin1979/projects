@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about');
 var productsRouter = require('./routes/products');
 var caruselRouter = require('./routes/carusel');
+var page1Router = require('./routes/page1');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/users', usersRouter);
 app.use('/about', aboutRouter);
 app.use('/products', productsRouter);
 app.use('/carusel', caruselRouter);
+app.use('/page1', page1Router);
 
 
 
