@@ -1,8 +1,11 @@
-let app = new Vue({
-    el: '#app',
-    data: {
-        items: ['a', 'b', 'c', 'd', 'e'],
-    },
+Vue.component('my-component', {
+	props: ['name'],
+	template: '<div>Привет, {{ name }}!</div>',
 });
 
-// 5. Реактивность
+let app = new Vue({
+	el: '#app',
+});
+
+// 20. Работа с компонентами в фреймворке Vue
+
