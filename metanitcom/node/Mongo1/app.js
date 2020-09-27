@@ -1,28 +1,20 @@
-const MongoClient = require("mongodb").MongoClient;
-
-const url = "mongodb://localhost:27017/";
-const mongoClient = new MongoClient(url, {
-    useNewUrlParser: true
+const mysql = require("mysql2");
+  
+const connection = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  database: "usersdb2",
+  password: "1z8UyM75Q54z17"
 });
-
-mongoClient.connect(function (err, client) {
-
-    const db = client.db("usersdb");
-    const collection = db.collection("users");
-    let user = {
-        name: "Tom",
-        age: 23
-    };
-    collection.insertOne(user, function (err, result) {
-
-        if (err) {
-            return console.log(err);
-        }
-        console.log(result.ops);
-        client.close();
-    });
+ 
+const user = ["Tom", 29];
+const sql = "INSERT INTO users(name, age) VALUES(?, ?)";
+ 
+connection.query(sql, user, function(err, results) {
+    if(err) console.log(err);
+    else console.log("Данные добавлены");
 });
+ 
+connection.end();
 
-
-// Не работает windows 7 
-// Окончание
+// Глава 7. ===> Выполнение запросов к MySQL

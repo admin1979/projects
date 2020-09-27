@@ -5,7 +5,9 @@ Vue.component('my-component', {
 
 let app = new Vue({
 	el: '#app',
+	data: {
+		value: 'Вася',
+	}
 });
 
 // 20. Работа с компонентами в фреймворке Vue
-
