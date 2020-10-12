@@ -1,0 +1,13 @@
+C:\projects\metanitcom\C#\fordummies\bin\Debug\netcoreapp3.1\fordummies.exe
+C:\projects\metanitcom\C#\fordummies\bin\Debug\netcoreapp3.1\fordummies.deps.json
+C:\projects\metanitcom\C#\fordummies\bin\Debug\netcoreapp3.1\fordummies.runtimeconfig.json
+C:\projects\metanitcom\C#\fordummies\bin\Debug\netcoreapp3.1\fordummies.runtimeconfig.dev.json
+C:\projects\metanitcom\C#\fordummies\bin\Debug\netcoreapp3.1\fordummies.dll
+C:\projects\metanitcom\C#\fordummies\bin\Debug\netcoreapp3.1\fordummies.pdb
+C:\projects\metanitcom\C#\fordummies\obj\Debug\netcoreapp3.1\fordummies.csprojAssemblyReference.cache
+C:\projects\metanitcom\C#\fordummies\obj\Debug\netcoreapp3.1\fordummies.AssemblyInfoInputs.cache
+C:\projects\metanitcom\C#\fordummies\obj\Debug\netcoreapp3.1\fordummies.AssemblyInfo.cs
+C:\projects\metanitcom\C#\fordummies\obj\Debug\netcoreapp3.1\fordummies.csproj.CoreCompileInputs.cache
+C:\projects\metanitcom\C#\fordummies\obj\Debug\netcoreapp3.1\fordummies.dll
+C:\projects\metanitcom\C#\fordummies\obj\Debug\netcoreapp3.1\fordummies.pdb
+C:\projects\metanitcom\C#\fordummies\obj\Debug\netcoreapp3.1\fordummies.genruntimeconfig.cache
