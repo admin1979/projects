@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays24", "Arrays24\Arrays24.csproj", "{BBC5DCB6-1BAA-4296-B791-57086515BABD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays26", "Arrays26\Arrays26.csproj", "{F8DD472B-9EFE-4340-981A-47B43A1C830B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BBC5DCB6-1BAA-4296-B791-57086515BABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBC5DCB6-1BAA-4296-B791-57086515BABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBC5DCB6-1BAA-4296-B791-57086515BABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBC5DCB6-1BAA-4296-B791-57086515BABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DD472B-9EFE-4340-981A-47B43A1C830B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DD472B-9EFE-4340-981A-47B43A1C830B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DD472B-9EFE-4340-981A-47B43A1C830B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DD472B-9EFE-4340-981A-47B43A1C830B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {59956D77-2948-44F1-B156-5A2FDA7E74EE}
+		SolutionGuid = {AD8739E4-9387-4703-B13E-6F43437E3F98}
 	EndGlobalSection
 EndGlobal

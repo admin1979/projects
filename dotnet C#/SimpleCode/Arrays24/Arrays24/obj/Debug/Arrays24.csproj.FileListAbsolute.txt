@@ -1,7 +1,0 @@
-C:\projects\dotnet C#\SimpleCode\Arrays24\Arrays24\bin\Debug\Arrays24.exe.config
-C:\projects\dotnet C#\SimpleCode\Arrays24\Arrays24\bin\Debug\Arrays24.exe
-C:\projects\dotnet C#\SimpleCode\Arrays24\Arrays24\bin\Debug\Arrays24.pdb
-C:\projects\dotnet C#\SimpleCode\Arrays24\Arrays24\obj\Debug\Arrays24.csprojAssemblyReference.cache
-C:\projects\dotnet C#\SimpleCode\Arrays24\Arrays24\obj\Debug\Arrays24.csproj.CoreCompileInputs.cache
-C:\projects\dotnet C#\SimpleCode\Arrays24\Arrays24\obj\Debug\Arrays24.exe
-C:\projects\dotnet C#\SimpleCode\Arrays24\Arrays24\obj\Debug\Arrays24.pdb

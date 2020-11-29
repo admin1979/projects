@@ -1,0 +1,7 @@
+C:\projects\dotnet C#\SimpleCode\Arrays26\Arrays26\bin\Debug\Arrays26.exe.config
+C:\projects\dotnet C#\SimpleCode\Arrays26\Arrays26\bin\Debug\Arrays26.exe
+C:\projects\dotnet C#\SimpleCode\Arrays26\Arrays26\bin\Debug\Arrays26.pdb
+C:\projects\dotnet C#\SimpleCode\Arrays26\Arrays26\obj\Debug\Arrays26.csprojAssemblyReference.cache
+C:\projects\dotnet C#\SimpleCode\Arrays26\Arrays26\obj\Debug\Arrays26.csproj.CoreCompileInputs.cache
+C:\projects\dotnet C#\SimpleCode\Arrays26\Arrays26\obj\Debug\Arrays26.exe
+C:\projects\dotnet C#\SimpleCode\Arrays26\Arrays26\obj\Debug\Arrays26.pdb

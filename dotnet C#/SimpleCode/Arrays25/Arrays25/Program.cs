@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Arrays24
+namespace Arrays25
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
-            Console.ReadKey();
+            int[] myArray = {5,7,8,5,9,5};
         }
     }
 }
