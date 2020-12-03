@@ -1,0 +1,6 @@
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode30\bin\Debug\SimpleCode30.exe.config
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode30\bin\Debug\SimpleCode30.exe
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode30\bin\Debug\SimpleCode30.pdb
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode30\obj\Debug\SimpleCode30.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode30\obj\Debug\SimpleCode30.exe
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode30\obj\Debug\SimpleCode30.pdb

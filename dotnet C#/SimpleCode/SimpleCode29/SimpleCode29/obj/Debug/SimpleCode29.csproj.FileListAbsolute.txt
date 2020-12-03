@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode29\bin\Debug\SimpleCode29.exe.config
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode29\bin\Debug\SimpleCode29.exe
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode29\bin\Debug\SimpleCode29.pdb
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode29\obj\Debug\SimpleCode29.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode29\obj\Debug\SimpleCode29.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode29\obj\Debug\SimpleCode29.exe
+C:\Users\pupke\source\repos\SimpleCode29\SimpleCode29\obj\Debug\SimpleCode29.pdb

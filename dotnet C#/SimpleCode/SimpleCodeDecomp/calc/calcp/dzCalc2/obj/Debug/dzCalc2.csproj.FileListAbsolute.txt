@@ -1,0 +1,6 @@
+C:\Users\pupke\source\SimpleCodeDecomp\calc\calcp\dzCalc2\bin\Debug\dzCalc2.exe
+C:\Users\pupke\source\SimpleCodeDecomp\calc\calcp\dzCalc2\bin\Debug\dzCalc2.pdb
+C:\Users\pupke\source\SimpleCodeDecomp\calc\calcp\dzCalc2\obj\Debug\dzCalc2.csprojAssemblyReference.cache
+C:\Users\pupke\source\SimpleCodeDecomp\calc\calcp\dzCalc2\obj\Debug\dzCalc2.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\SimpleCodeDecomp\calc\calcp\dzCalc2\obj\Debug\dzCalc2.exe
+C:\Users\pupke\source\SimpleCodeDecomp\calc\calcp\dzCalc2\obj\Debug\dzCalc2.pdb

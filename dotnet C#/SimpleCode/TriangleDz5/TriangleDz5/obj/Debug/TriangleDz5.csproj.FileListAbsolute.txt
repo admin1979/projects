@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\TriangleDz5\TriangleDz5\bin\Debug\TriangleDz5.exe.config
+C:\Users\pupke\source\repos\TriangleDz5\TriangleDz5\bin\Debug\TriangleDz5.exe
+C:\Users\pupke\source\repos\TriangleDz5\TriangleDz5\bin\Debug\TriangleDz5.pdb
+C:\Users\pupke\source\repos\TriangleDz5\TriangleDz5\obj\Debug\TriangleDz5.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\TriangleDz5\TriangleDz5\obj\Debug\TriangleDz5.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\TriangleDz5\TriangleDz5\obj\Debug\TriangleDz5.exe
+C:\Users\pupke\source\repos\TriangleDz5\TriangleDz5\obj\Debug\TriangleDz5.pdb

@@ -1,0 +1,10 @@
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\bin\Debug\Ultimate Predictor.exe.config
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\bin\Debug\Ultimate Predictor.exe
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\bin\Debug\Ultimate Predictor.pdb
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\obj\Debug\Ultimate Predictor.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\obj\Debug\Ultimate_Predictor.Form1.resources
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\obj\Debug\Ultimate_Predictor.Properties.Resources.resources
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\obj\Debug\Ultimate Predictor.csproj.GenerateResource.cache
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\obj\Debug\Ultimate Predictor.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\obj\Debug\Ultimate Predictor.exe
+C:\Users\pupke\source\repos\Ultimate Predictor\Ultimate Predictor\obj\Debug\Ultimate Predictor.pdb
