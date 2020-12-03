@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oGpdAbHzAKe3io6NV+OBPs7M/jkCkHUiVNDFGEvnUdv0ykMvi9akuGQy/lERN516mzxQSSZelr47ubsrYIT0BA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pupke\\source\\repos\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pupke\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\pupke\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

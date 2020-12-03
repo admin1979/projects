@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode19\TimeApp\bin\Debug\TimeApp.exe.config
+C:\Users\pupke\source\repos\SimpleCode19\TimeApp\bin\Debug\TimeApp.exe
+C:\Users\pupke\source\repos\SimpleCode19\TimeApp\bin\Debug\TimeApp.pdb
+C:\Users\pupke\source\repos\SimpleCode19\TimeApp\obj\Debug\TimeApp.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode19\TimeApp\obj\Debug\TimeApp.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode19\TimeApp\obj\Debug\TimeApp.exe
+C:\Users\pupke\source\repos\SimpleCode19\TimeApp\obj\Debug\TimeApp.pdb

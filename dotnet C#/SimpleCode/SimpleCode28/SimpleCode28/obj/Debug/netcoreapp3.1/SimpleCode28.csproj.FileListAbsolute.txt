@@ -1,0 +1,13 @@
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\bin\Debug\netcoreapp3.1\SimpleCode28.exe
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\bin\Debug\netcoreapp3.1\SimpleCode28.deps.json
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\bin\Debug\netcoreapp3.1\SimpleCode28.runtimeconfig.json
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\bin\Debug\netcoreapp3.1\SimpleCode28.runtimeconfig.dev.json
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\bin\Debug\netcoreapp3.1\SimpleCode28.dll
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\bin\Debug\netcoreapp3.1\SimpleCode28.pdb
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\obj\Debug\netcoreapp3.1\SimpleCode28.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\obj\Debug\netcoreapp3.1\SimpleCode28.AssemblyInfoInputs.cache
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\obj\Debug\netcoreapp3.1\SimpleCode28.AssemblyInfo.cs
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\obj\Debug\netcoreapp3.1\SimpleCode28.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\obj\Debug\netcoreapp3.1\SimpleCode28.dll
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\obj\Debug\netcoreapp3.1\SimpleCode28.pdb
+C:\Users\pupke\source\repos\SimpleCode28\SimpleCode28\obj\Debug\netcoreapp3.1\SimpleCode28.genruntimeconfig.cache

@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode16\SimpleCode17\bin\Debug\SimpleCode17.exe.config
+C:\Users\pupke\source\repos\SimpleCode16\SimpleCode17\bin\Debug\SimpleCode17.exe
+C:\Users\pupke\source\repos\SimpleCode16\SimpleCode17\bin\Debug\SimpleCode17.pdb
+C:\Users\pupke\source\repos\SimpleCode16\SimpleCode17\obj\Debug\SimpleCode17.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode16\SimpleCode17\obj\Debug\SimpleCode17.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode16\SimpleCode17\obj\Debug\SimpleCode17.exe
+C:\Users\pupke\source\repos\SimpleCode16\SimpleCode17\obj\Debug\SimpleCode17.pdb

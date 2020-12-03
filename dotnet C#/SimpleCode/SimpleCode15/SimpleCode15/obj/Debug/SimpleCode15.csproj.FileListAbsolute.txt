@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode15\SimpleCode15\bin\Debug\SimpleCode15.exe.config
+C:\Users\pupke\source\repos\SimpleCode15\SimpleCode15\bin\Debug\SimpleCode15.exe
+C:\Users\pupke\source\repos\SimpleCode15\SimpleCode15\bin\Debug\SimpleCode15.pdb
+C:\Users\pupke\source\repos\SimpleCode15\SimpleCode15\obj\Debug\SimpleCode15.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode15\SimpleCode15\obj\Debug\SimpleCode15.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode15\SimpleCode15\obj\Debug\SimpleCode15.exe
+C:\Users\pupke\source\repos\SimpleCode15\SimpleCode15\obj\Debug\SimpleCode15.pdb

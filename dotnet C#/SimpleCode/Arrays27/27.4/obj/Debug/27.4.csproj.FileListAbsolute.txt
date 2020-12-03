@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\Arrays27\27.4\obj\Debug\27.4.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\Arrays27\27.4\obj\Debug\27.4.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\Arrays27\27.4\bin\Debug\27.4.exe.config
+C:\Users\pupke\source\repos\Arrays27\27.4\bin\Debug\27.4.exe
+C:\Users\pupke\source\repos\Arrays27\27.4\bin\Debug\27.4.pdb
+C:\Users\pupke\source\repos\Arrays27\27.4\obj\Debug\27.4.exe
+C:\Users\pupke\source\repos\Arrays27\27.4\obj\Debug\27.4.pdb

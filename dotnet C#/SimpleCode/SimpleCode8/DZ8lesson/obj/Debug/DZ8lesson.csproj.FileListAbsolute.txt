@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode8\DZ8lesson\bin\Debug\DZ8lesson.exe.config
+C:\Users\pupke\source\repos\SimpleCode8\DZ8lesson\bin\Debug\DZ8lesson.exe
+C:\Users\pupke\source\repos\SimpleCode8\DZ8lesson\bin\Debug\DZ8lesson.pdb
+C:\Users\pupke\source\repos\SimpleCode8\DZ8lesson\obj\Debug\DZ8lesson.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode8\DZ8lesson\obj\Debug\DZ8lesson.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode8\DZ8lesson\obj\Debug\DZ8lesson.exe
+C:\Users\pupke\source\repos\SimpleCode8\DZ8lesson\obj\Debug\DZ8lesson.pdb

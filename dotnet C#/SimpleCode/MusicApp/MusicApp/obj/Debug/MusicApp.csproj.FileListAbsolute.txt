@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\MusicApp\MusicApp\bin\Debug\MusicApp.exe.config
+C:\Users\pupke\source\repos\MusicApp\MusicApp\bin\Debug\MusicApp.exe
+C:\Users\pupke\source\repos\MusicApp\MusicApp\bin\Debug\MusicApp.pdb
+C:\Users\pupke\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.exe
+C:\Users\pupke\source\repos\MusicApp\MusicApp\obj\Debug\MusicApp.pdb

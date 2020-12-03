@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode16\dz4\bin\Debug\dz4.exe.config
+C:\Users\pupke\source\repos\SimpleCode16\dz4\bin\Debug\dz4.exe
+C:\Users\pupke\source\repos\SimpleCode16\dz4\bin\Debug\dz4.pdb
+C:\Users\pupke\source\repos\SimpleCode16\dz4\obj\Debug\dz4.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode16\dz4\obj\Debug\dz4.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode16\dz4\obj\Debug\dz4.exe
+C:\Users\pupke\source\repos\SimpleCode16\dz4\obj\Debug\dz4.pdb

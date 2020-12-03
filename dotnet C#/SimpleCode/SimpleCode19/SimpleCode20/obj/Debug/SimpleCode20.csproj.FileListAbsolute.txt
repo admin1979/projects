@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode20\bin\Debug\SimpleCode20.exe.config
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode20\bin\Debug\SimpleCode20.exe
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode20\bin\Debug\SimpleCode20.pdb
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode20\obj\Debug\SimpleCode20.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode20\obj\Debug\SimpleCode20.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode20\obj\Debug\SimpleCode20.exe
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode20\obj\Debug\SimpleCode20.pdb

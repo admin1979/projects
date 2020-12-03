@@ -1,0 +1,6 @@
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode21\bin\Debug\SimpleCode21.exe.config
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode21\bin\Debug\SimpleCode21.exe
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode21\bin\Debug\SimpleCode21.pdb
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode21\obj\Debug\SimpleCode21.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode21\obj\Debug\SimpleCode21.exe
+C:\Users\pupke\source\repos\SimpleCode19\SimpleCode21\obj\Debug\SimpleCode21.pdb

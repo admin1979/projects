@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode16\fora\bin\Debug\fora.exe.config
+C:\Users\pupke\source\repos\SimpleCode16\fora\bin\Debug\fora.exe
+C:\Users\pupke\source\repos\SimpleCode16\fora\bin\Debug\fora.pdb
+C:\Users\pupke\source\repos\SimpleCode16\fora\obj\Debug\fora.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode16\fora\obj\Debug\fora.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode16\fora\obj\Debug\fora.exe
+C:\Users\pupke\source\repos\SimpleCode16\fora\obj\Debug\fora.pdb

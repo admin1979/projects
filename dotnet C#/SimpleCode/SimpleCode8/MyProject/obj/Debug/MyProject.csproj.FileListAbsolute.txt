@@ -1,0 +1,7 @@
+C:\Users\pupke\source\repos\SimpleCode8\MyProject\bin\Debug\MyProject.exe.config
+C:\Users\pupke\source\repos\SimpleCode8\MyProject\bin\Debug\MyProject.exe
+C:\Users\pupke\source\repos\SimpleCode8\MyProject\bin\Debug\MyProject.pdb
+C:\Users\pupke\source\repos\SimpleCode8\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\pupke\source\repos\SimpleCode8\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\pupke\source\repos\SimpleCode8\MyProject\obj\Debug\MyProject.exe
+C:\Users\pupke\source\repos\SimpleCode8\MyProject\obj\Debug\MyProject.pdb
