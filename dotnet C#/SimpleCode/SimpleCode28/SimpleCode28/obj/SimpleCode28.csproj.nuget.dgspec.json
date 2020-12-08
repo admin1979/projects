@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pupke\\source\\repos\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj": {}
+    "C:\\projects\\dotnet C#\\SimpleCode\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pupke\\source\\repos\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj": {
+    "C:\\projects\\dotnet C#\\SimpleCode\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pupke\\source\\repos\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet C#\\SimpleCode\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj",
         "projectName": "SimpleCode28",
-        "projectPath": "C:\\Users\\pupke\\source\\repos\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj",
+        "projectPath": "C:\\projects\\dotnet C#\\SimpleCode\\SimpleCode28\\SimpleCode28\\SimpleCode28.csproj",
         "packagesPath": "C:\\Users\\pupke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pupke\\source\\repos\\SimpleCode28\\SimpleCode28\\obj\\",
+        "outputPath": "C:\\projects\\dotnet C#\\SimpleCode\\SimpleCode28\\SimpleCode28\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pupke\\AppData\\Roaming\\NuGet\\NuGet.Config",
