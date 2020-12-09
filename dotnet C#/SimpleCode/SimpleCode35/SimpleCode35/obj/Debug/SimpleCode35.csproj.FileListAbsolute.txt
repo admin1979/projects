@@ -1,0 +1,7 @@
+C:\projects\dotnet C#\SimpleCode\SimpleCode35\SimpleCode35\bin\Debug\SimpleCode35.exe.config
+C:\projects\dotnet C#\SimpleCode\SimpleCode35\SimpleCode35\bin\Debug\SimpleCode35.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode35\SimpleCode35\bin\Debug\SimpleCode35.pdb
+C:\projects\dotnet C#\SimpleCode\SimpleCode35\SimpleCode35\obj\Debug\SimpleCode35.csprojAssemblyReference.cache
+C:\projects\dotnet C#\SimpleCode\SimpleCode35\SimpleCode35\obj\Debug\SimpleCode35.csproj.CoreCompileInputs.cache
+C:\projects\dotnet C#\SimpleCode\SimpleCode35\SimpleCode35\obj\Debug\SimpleCode35.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode35\SimpleCode35\obj\Debug\SimpleCode35.pdb
