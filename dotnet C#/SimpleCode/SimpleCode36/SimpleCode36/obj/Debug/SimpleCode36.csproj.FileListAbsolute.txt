@@ -1,0 +1,7 @@
+C:\projects\dotnet C#\SimpleCode\SimpleCode36\SimpleCode36\bin\Debug\SimpleCode36.exe.config
+C:\projects\dotnet C#\SimpleCode\SimpleCode36\SimpleCode36\bin\Debug\SimpleCode36.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode36\SimpleCode36\bin\Debug\SimpleCode36.pdb
+C:\projects\dotnet C#\SimpleCode\SimpleCode36\SimpleCode36\obj\Debug\SimpleCode36.csprojAssemblyReference.cache
+C:\projects\dotnet C#\SimpleCode\SimpleCode36\SimpleCode36\obj\Debug\SimpleCode36.csproj.CoreCompileInputs.cache
+C:\projects\dotnet C#\SimpleCode\SimpleCode36\SimpleCode36\obj\Debug\SimpleCode36.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode36\SimpleCode36\obj\Debug\SimpleCode36.pdb

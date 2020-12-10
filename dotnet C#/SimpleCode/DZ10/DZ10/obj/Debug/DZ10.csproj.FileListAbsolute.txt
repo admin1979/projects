@@ -1,0 +1,7 @@
+C:\projects\dotnet C#\SimpleCode\DZ10\DZ10\bin\Debug\DZ10.exe.config
+C:\projects\dotnet C#\SimpleCode\DZ10\DZ10\bin\Debug\DZ10.exe
+C:\projects\dotnet C#\SimpleCode\DZ10\DZ10\bin\Debug\DZ10.pdb
+C:\projects\dotnet C#\SimpleCode\DZ10\DZ10\obj\Debug\DZ10.csprojAssemblyReference.cache
+C:\projects\dotnet C#\SimpleCode\DZ10\DZ10\obj\Debug\DZ10.csproj.CoreCompileInputs.cache
+C:\projects\dotnet C#\SimpleCode\DZ10\DZ10\obj\Debug\DZ10.exe
+C:\projects\dotnet C#\SimpleCode\DZ10\DZ10\obj\Debug\DZ10.pdb
