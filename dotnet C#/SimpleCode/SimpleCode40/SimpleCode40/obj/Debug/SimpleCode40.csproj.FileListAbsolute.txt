@@ -1,0 +1,7 @@
+C:\projects\dotnet C#\SimpleCode\SimpleCode40\SimpleCode40\bin\Debug\SimpleCode40.exe.config
+C:\projects\dotnet C#\SimpleCode\SimpleCode40\SimpleCode40\bin\Debug\SimpleCode40.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode40\SimpleCode40\bin\Debug\SimpleCode40.pdb
+C:\projects\dotnet C#\SimpleCode\SimpleCode40\SimpleCode40\obj\Debug\SimpleCode40.csprojAssemblyReference.cache
+C:\projects\dotnet C#\SimpleCode\SimpleCode40\SimpleCode40\obj\Debug\SimpleCode40.csproj.CoreCompileInputs.cache
+C:\projects\dotnet C#\SimpleCode\SimpleCode40\SimpleCode40\obj\Debug\SimpleCode40.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode40\SimpleCode40\obj\Debug\SimpleCode40.pdb

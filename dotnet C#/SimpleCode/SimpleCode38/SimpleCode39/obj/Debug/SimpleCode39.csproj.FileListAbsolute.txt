@@ -1,0 +1,6 @@
+C:\projects\dotnet C#\SimpleCode\SimpleCode38\SimpleCode39\bin\Debug\SimpleCode39.exe.config
+C:\projects\dotnet C#\SimpleCode\SimpleCode38\SimpleCode39\bin\Debug\SimpleCode39.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode38\SimpleCode39\bin\Debug\SimpleCode39.pdb
+C:\projects\dotnet C#\SimpleCode\SimpleCode38\SimpleCode39\obj\Debug\SimpleCode39.csproj.CoreCompileInputs.cache
+C:\projects\dotnet C#\SimpleCode\SimpleCode38\SimpleCode39\obj\Debug\SimpleCode39.exe
+C:\projects\dotnet C#\SimpleCode\SimpleCode38\SimpleCode39\obj\Debug\SimpleCode39.pdb
