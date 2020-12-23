@@ -1,0 +1,23 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* page1 */
+.container {
+  margin-top: 20px;
+}
+
+/* footer */
+#navbarToggleExternalContent {
+  margin-top: 20px;
+}
+
+/* .figure {
+  width: 100px;
+  height: 100px;
+} */
