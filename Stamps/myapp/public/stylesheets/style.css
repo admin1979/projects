@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
 
 /* page1 */
@@ -15,6 +15,11 @@ a {
 /* footer */
 #navbarToggleExternalContent {
   margin-top: 20px;
+}
+
+/* Pagination НЕ ПАШЕТ*/
+.aria-label {
+  /* margin: 200px;  */
 }
 
 /* .figure {
