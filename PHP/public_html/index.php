@@ -1,9 +1,11 @@
 <?php
-class Man
+class Grandpa
 {
     public $hair = 'Русые';
 
     public $body = 'Нормальное';
+
+    protected $nose = 'Кривой';
 
     public function eat($calories)
     {
@@ -15,16 +17,17 @@ class Man
     }
 }
 
-$masha = new Man();
-$ivan = new Man();
+class Father extends Grandpa
+{
+}
 
-echo 'Волосы Маши - ' . $masha->hair . '<br>';
-echo 'Волосы Ивана - ' . $ivan->hair . '<br>';
+$masha = new Father();
+$ivan = new Father();
+// $masha->nose;
 
-$masha->hair = 'Белые';
-
-echo 'Волосы Маши - ' . $masha->hair . '<br>';
-echo 'Волосы Ивана - ' . $ivan->hair . '<br>';
+echo 'Тело Маши - ' . $masha->body . '<br>';
+echo 'Тело Ивана - ' . $ivan->body . '<br>';
+// echo 'Нос Ивана - ' . $ivan->nose . '<br>';
 
 $masha->eat(200);
 $ivan->eat(2000);
