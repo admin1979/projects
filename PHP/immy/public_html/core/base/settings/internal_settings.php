@@ -3,7 +3,7 @@
 defined('VG_ACCESS') or die('Access denied'); //запрет отображения файла левым людям
 
 const TEMPLATE = 'templates/default/'; //путь к шаблонам, если создать другую папку например 2 то тут пишется 2 вместо default
-const ADMIN_TEMPLATES = 'core/admin/views/'; //Константа отвечающая за пути к админ панели сайта
+const ADMIN_TEMPLATE = 'core/admin/views/'; //Константа отвечающая за пути к админ панели сайта
 
 const COOKIE_VERSION = '1.0.0';
 const CRYPT_KEY = ''; //ключ шифрования для куки файла
