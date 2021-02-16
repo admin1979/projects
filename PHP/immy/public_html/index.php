@@ -6,6 +6,8 @@ header('Content-Type:text/html;charset=utf-8'); //отправка браузе�
 session_start(); //старт сессии?????
 
 require_once 'config.php'; //Путь к настройкам хостинга 
-require_once 'core/base/internal_settings.php'; //Путь к настройкам проекта
+require_once 'core/base/settings/internal_settings.php'; //Путь к настройкам проекта
 
 echo 'Прывет';
+
+// =======> выпуск №3

@@ -10,4 +10,6 @@ const USER = 'root';
 const PASS = '';
 const DB_NAME = 'im';
 
+// echo 'hello';
+
 // Настройки для хостинга
