@@ -8,6 +8,12 @@ session_start(); //старт сессии?????
 require_once 'config.php'; //Путь к настройкам хостинга 
 require_once 'core/base/settings/internal_settings.php'; //Путь к настройкам проекта
 
-echo 'Прывет';
+function load1($class_name)
+{
+    // $class_name = str_replace('\\', '/', $class_name);
+    include $class_name . '.php';
+}
 
-// =======> выпуск №3 последние 7-10 минут посмотреть
+spl_autoload_register('load1');
+
+(new \n1\A());
