@@ -1,3 +1,4 @@
+
 <?php
 
 define('VG_ACCESS', true); //(Константа безопасности)разрешение (true) доступа к config левым людям это ведь index
@@ -10,10 +11,10 @@ require_once 'core/base/settings/internal_settings.php'; //Путь к наст�
 
 function load1($class_name)
 {
-    // $class_name = str_replace('\\', '/', $class_name);
+      // $class_name = str_replace('\\', '/', $class_name);
     include $class_name . '.php';
 }
 
 spl_autoload_register('load1');
 
-(new \n1\A());
+(new \n2\A());
