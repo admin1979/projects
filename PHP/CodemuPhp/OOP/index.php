@@ -1,54 +1,19 @@
 <?php
-class Employee
+class User
 {
     public $name;
     public $age;
-    public $salary;
 
-    public function show()
+    // Конструктор объекта:
+    public function __construct($name, $age)
     {
-        return $this ->name;
+        $this->name = $name; // запишем данные в свойство name
+        $this->age = $age; // запишем данные в свойство age
     }
-
-    public function show2()
-    {
-        return $this ->age;
-    }
-
-    public function show3()
-    {
-        return $this ->salary;
-    }
-
-    public function checkAge()
-    {
-        if ($this->age > 18)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
 }
 
-$Empl = new Employee;
-$Empl ->name = 'Вася';
-$Empl ->age = 19;
-$Empl ->salary = 100500;
+$user = new User('Коля', 25); // создадим объект, сразу заполнив его данными
 
-
-echo $Empl ->name;
-echo "\r";
-echo $Empl ->show();
-echo "\r";
-echo $Empl ->show2();
-echo "\r";
-echo $Empl ->show3();
-echo "\r";
-echo $Empl ->checkAge();
-echo "\r";
-
-
+echo $user->name; // выведет 'Коля'
+echo $user->age; // выведет 25
+?>
